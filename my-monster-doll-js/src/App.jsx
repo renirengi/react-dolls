@@ -1,3 +1,5 @@
+import React from 'react'
+import axios from 'axios'
 
 import './scss/app.scss'
 import dolls from './assets/dolls.json'
@@ -6,7 +8,16 @@ import Categories from './components/Categories'
 import Sort from './components/Sort'
 import DollsBlock from './components/DollsBlock'
 function App() {
-  console.log(dolls)
+  const [dolls, setDolls] = React.useState([])
+
+  React.useEffect (()=>{
+    axios.get(' http://localhost:3000/dolls').
+    then((res)=>{
+      console.log(res.data)
+      setDolls(res.data)}
+    )
+  },[])
+  
   
 
   return (
