@@ -3,14 +3,16 @@ import React from 'react'
 const sortList = ['age', 'price', 'alphabet']
 
 export default function Sort() {
-  const {activeSort, setActiveSort} = React.useState(0)
-  const [open, setOpen]= React.useState(true);
+   const [open, setOpen]= React.useState(false)
+  const [selected, setSelected] = React.useState(0)
+ const selectedName = sortList[selected]
   
 
   const onChangeCategory = (index) => {
-    setActiveSort(index)
-    console.log(activeSort)
+    setSelected(index)
+    setOpen(false)
   }
+  
   return (
     <>
       <div className="sort">
@@ -28,15 +30,15 @@ export default function Sort() {
                   />
                 </svg>
                 <b>Sort by:</b>
-                <span onClick={()=> setOpen(!open)}>{sortList[activeSort]}</span>
+                <span onClick={()=> setOpen(!open)}>{selectedName}</span>
               </div>
               {open && 
               <div className="sort__popup">
                 <ul>
                   {sortList.map((item, index)=>(
                     <li key={index}
-                    className={activeSort===index ? 'active' : ''}
-                    onChange={()=>onChangeCategory(index)}
+                    className={selected===index ? 'active' : ''}
+                    onClick={()=>onChangeCategory(index)}
                     >
                       {item}
                     </li>
