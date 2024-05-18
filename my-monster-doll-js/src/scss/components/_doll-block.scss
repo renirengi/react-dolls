@@ -1,7 +1,8 @@
 @import '../variables';
 
 .dolls-block {
-  width: 280px;
+  max-width: 300px;
+  max-height: 500px;
   text-align: center;
   margin-bottom: 65px;
 
@@ -11,7 +12,13 @@
   }
 
   &__image {
-    width: 260px;
+    max-width: 210px;
+    height: 280px;
+  }
+  &__title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   &__title {
@@ -19,6 +26,7 @@
     font-weight: 900;
     letter-spacing: 1%;
     margin-bottom: 20px;
+    margin: 0 6px;
   }
 
   &__options {
@@ -27,6 +35,8 @@
     border-radius: 10px;
     flex-direction: column;
     padding: 6px;
+    height: 95px;
+
     p {
       padding: 8px;
       flex: 2;

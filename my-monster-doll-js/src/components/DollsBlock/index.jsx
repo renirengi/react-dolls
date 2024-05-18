@@ -1,25 +1,29 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 
-export default function DollsBlock({character, year, galleryImagesLinks, series}) {
+export default function DollsBlock({character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
   return (
     <>
     <div className="dolls-block">
   <img
-   crossOrigin="anonymous"
     className="dolls-block__image"
     src={galleryImagesLinks[0]}
     alt="Pizza"
   />
-  <h4 className="dolls-block__title">{character}</h4>
+  <div className="dolls-block__title-container">
+
+  {character && character.map((item, index) => (<h4 key={index} className="dolls-block__title">{item}</h4>))}
+  </div>
+  
   <div className="dolls-block__options">
     <p>{series} <span>{year}</span></p>
     <ul>
-      <li>Reissue</li>
-      <li>Comic Con</li>
+      <>{reissue && <li>Reissue</li>}</>
+      <>{exclusive && <li>{exclusive}</li>}</>
     </ul>
   </div>
   <div className="dolls-block__bottom">
-    <div className="dolls-block__price">660 $</div>
+    <div className="dolls-block__price">{price} $</div>
     <div className="button button--outline button--add">
       <svg
         width="12"
