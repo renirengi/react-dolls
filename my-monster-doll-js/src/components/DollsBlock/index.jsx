@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 
-export default function DollsBlock({character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
+export default function DollsBlock({ character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
   return (
     <>
     <div className="dolls-block">
   <img
     className="dolls-block__image"
-    src={galleryImagesLinks[0]}
+    src={`/img/${galleryImagesLinks[1]}`}
     alt="Pizza"
   />
   <div className="dolls-block__title-container">
