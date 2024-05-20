@@ -6,6 +6,10 @@
 
 body {
   background-color: $background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .wrapper {

@@ -1,18 +1,21 @@
 import React from 'react'
 import logoPng from '../assets/img/doll-logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <>
           <div className="header">
         <div className="container">
+          <Link to="/">
           <div className="header__logo">
-            <img width="38" src={logoPng} alt="Doll logo" />
+            <img width="70" src={logoPng} alt="Doll logo" />
             <div>
               <h1>Monster Dolls</h1>
               <p>the best monsters in the Universe</p>
             </div>
           </div>
+          </Link>
           <div className="header__cart">
             <a href="/cart.html" className="button button--cart">
               <span>520 $</span>
