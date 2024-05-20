@@ -7,17 +7,23 @@ import Header from './components/Header'
 import Categories from './components/Categories'
 import Sort from './components/Sort'
 import DollsBlock from './components/DollsBlock'
+import Skeleton from './components/DollsBlock/Skeleton'
 function App() {
   const [dolls, setDolls] = React.useState([])
+ const [isLoading, setIsLoading] = React.useState(true)
 
   React.useEffect (()=>{
+    //setIsLoading(true)
     axios.get(' http://localhost:3000/dolls').
     then((res)=>{
-      console.log(res.data)
-      setDolls(res.data)}
-    )
-  },[])
+      setDolls(res.data)
+      setIsLoading(false)
+    })
+    
+  },[dolls, isLoading])
   
+  const dataDolls = dolls.map((obj)=> 
+    <DollsBlock key={obj.id} {...obj}></DollsBlock>)
   
 
   return (
@@ -32,9 +38,7 @@ function App() {
           </div>
           <h2 className="content__title">All dolls</h2>
           <div className="content__items">
-           {dolls.map((obj)=> (
-            <DollsBlock key={obj.id} {...obj}></DollsBlock>
-           ))}
+          {isLoading ? [...new Array(6)].map((_, index)=><Skeleton key={index}></Skeleton>) : dataDolls}
           </div>
         </div>
       </div>

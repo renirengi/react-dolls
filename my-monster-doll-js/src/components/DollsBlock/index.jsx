@@ -7,7 +7,7 @@ export default function DollsBlock({ character, year, galleryImagesLinks, series
     <div className="dolls-block">
   <img
     className="dolls-block__image"
-    src={`/img/${galleryImagesLinks[1]}`}
+    src={`/img/${galleryImagesLinks[0]}`}
     alt="Pizza"
   />
   <div className="dolls-block__title-container">
