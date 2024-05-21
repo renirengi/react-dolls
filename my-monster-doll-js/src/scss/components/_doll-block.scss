@@ -1,7 +1,7 @@
 @import '../variables';
 
 .dolls-block {
-  max-width: 300px;
+  max-width: 280px;
   max-height: 500px;
   text-align: center;
   margin-bottom: 65px;
@@ -73,4 +73,8 @@
     line-height: 27px;
     letter-spacing: 0.015em;
   }
+}
+.dolls-block-wrapper {
+  display: flex;
+  justify-content: center;
 }

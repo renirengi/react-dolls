@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function DollsBlock({ character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
   return (
-    <>
-    <div className="dolls-block">
+    <div className='dolls-block-wrapper'>
+      <div className="dolls-block">
   <img
     className="dolls-block__image"
     src={`/img/${galleryImagesLinks[0]}`}
@@ -42,6 +42,8 @@ export default function DollsBlock({ character, year, galleryImagesLinks, series
     </div>
   </div>
   </div>
-    </>
+  </div>
+    
+    
   )
 }

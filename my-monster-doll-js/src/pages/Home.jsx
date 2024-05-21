@@ -16,7 +16,7 @@ export default function Home() {
       setDolls(res.data)
       setIsLoading(false)
     })
-    
+    window.scrollTo(0,0)
   },[])
   
   const dataDolls = dolls.map((obj)=> 
