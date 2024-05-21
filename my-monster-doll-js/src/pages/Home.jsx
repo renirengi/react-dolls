@@ -9,15 +9,24 @@ export default function Home() {
  const [dolls, setDolls] = React.useState([])
  const [isLoading, setIsLoading] = React.useState(true)
 
+// ////////////////////////////////////////////////////
+ const [sort, setSort] = React.useState({
+    name: 'age (DESC)', sortProperty: 'year'
+ })
+ const[activeCategory, setActiveCategory] = React.useState('All')
   React.useEffect (()=>{
     setIsLoading(true)
-    axios.get(' http://localhost:3000/dolls').
+
+   const category = activeCategory!=='All'? `type=${activeCategory}`: ''
+   const sortBy = sort.sortProperty.replace('-', '')
+   const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
+    axios.get(`http://localhost:3000/dolls?${category}&_sort=${sortBy}&_order=${order}`).
     then((res)=>{
       setDolls(res.data)
       setIsLoading(false)
     })
     window.scrollTo(0,0)
-  },[])
+  },[activeCategory, sort])
   
   const dataDolls = dolls.map((obj)=> 
     <DollsBlock key={obj.id} {...obj}></DollsBlock>)
@@ -26,8 +35,8 @@ export default function Home() {
     <>
       <div className="container">
           <div className="content__top">
-            <Categories></Categories>
-            <Sort></Sort>
+            <Categories value= {activeCategory} onClickCategory={(category)=>setActiveCategory(category)}></Categories>
+            <Sort value={sort} onClickSort={(obj)=>setSort(obj)}></Sort>
           </div>
           <h2 className="content__title">All dolls</h2>
           <div className="content__items">

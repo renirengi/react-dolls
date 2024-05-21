@@ -1,15 +1,25 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 
-const sortList = ['age', 'price', 'alphabet']
+////const sortList = ['age', 'price', 'alphabet']
 
-export default function Sort() {
+const sortList =[
+  { name: 'age (DESC)', sortProperty: 'year' },
+  { name: 'age (ASC)', sortProperty: '-year' },
+  { name: 'price (DESC)', sortProperty: 'price' },
+  { name: 'price (ASC)', sortProperty: '-price' },
+  { name: 'alphabet by name (DESC)', sortProperty: 'character' },
+  { name: 'alphabet by name (ASC)', sortProperty: '-character' },
+  { name: 'alphabet by series (DESC)', sortProperty: 'series' },
+  { name: 'alphabet by series (ASC)', sortProperty: '-series' },
+];
+export default function Sort({value, onClickSort}) {
    const [open, setOpen]= React.useState(false)
-  const [selected, setSelected] = React.useState(0)
- const selectedName = sortList[selected]
+ const selectedName = value.name
   
 
-  const onChangeCategory = (index) => {
-    setSelected(index)
+  const onChangeCategory = (obj) => {
+    onClickSort(obj)
     setOpen(false)
   }
   
@@ -35,12 +45,12 @@ export default function Sort() {
               {open && 
               <div className="sort__popup">
                 <ul>
-                  {sortList.map((item, index)=>(
+                  {sortList.map((obj, index)=>(
                     <li key={index}
-                    className={selected===index ? 'active' : ''}
-                    onClick={()=>onChangeCategory(index)}
+                    className={value.name===obj.name ? 'active' : ''}
+                    onClick={()=>onChangeCategory(obj)}
                     >
-                      {item}
+                      {obj.name}
                     </li>
                   ))}
                 </ul>
