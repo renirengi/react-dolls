@@ -5,9 +5,11 @@ import Categories from '../components/Categories'
 import Sort from '../components/Sort'
 import DollsBlock from '../components/DollsBlock'
 import Skeleton from '../components/DollsBlock/Skeleton'
+import { SearchContext } from '../App'
 export default function Home() {
  const [dolls, setDolls] = React.useState([])
  const [isLoading, setIsLoading] = React.useState(true)
+ const { searchValue } = React.useContext(SearchContext);
 
 // ////////////////////////////////////////////////////
  const [sort, setSort] = React.useState({
@@ -20,13 +22,15 @@ export default function Home() {
    const category = activeCategory!=='All'? `type=${activeCategory}`: ''
    const sortBy = sort.sortProperty.replace('-', '')
    const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
-    axios.get(`http://localhost:3000/dolls?${category}&_sort=${sortBy}&_order=${order}`).
+   const search = searchValue ? `&q=${searchValue}` : '';
+   
+    axios.get(`http://localhost:3000/dolls?${category}&_sort=${sortBy}&_order=${order}${search}`).
     then((res)=>{
       setDolls(res.data)
       setIsLoading(false)
     })
     window.scrollTo(0,0)
-  },[activeCategory, sort])
+  },[activeCategory, searchValue, sort])
   
   const dataDolls = dolls.map((obj)=> 
     <DollsBlock key={obj.id} {...obj}></DollsBlock>)

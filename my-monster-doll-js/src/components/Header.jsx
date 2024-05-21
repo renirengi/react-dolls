@@ -1,6 +1,7 @@
 import React from 'react'
 import logoPng from '../assets/img/doll-logo.png'
 import { Link } from 'react-router-dom'
+import Search from './Search'
 
 export default function Header() {
   return (
@@ -16,6 +17,7 @@ export default function Header() {
             </div>
           </div>
           </Link>
+          <Search></Search>
           <div className="header__cart">
             <Link to="/cart" className="button button--cart">
               <span>520 $</span>
