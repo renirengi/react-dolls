@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import { useSelector, useDispatch } from 'react-redux';
-import { selectFilter, setCategory, setFilters } from '../redux/slices/filterSlice';
+import { selectFilter, setCategory, setFilters, setSort } from '../redux/slices/filterSlice';
 
 import Categories from '../components/Categories'
 import Sort from '../components/Sort'
@@ -18,19 +18,33 @@ export default function Home() {
  const { searchValue } = React.useContext(SearchContext)
  
 const dispatch = useDispatch()
-const {activeCategory} = useSelector(selectFilter)
+const {activeCategory, sort} = useSelector(selectFilter)
 // ////////////////////////////////////////////////////
- const [sort, setSort] = React.useState({
-    name: 'age (DESC)', sortProperty: 'year'
- })
- ///const[activeCategory, setActiveCategory] = React.useState('All')
+//  const [sort, setSort] = React.useState({
+//     name: 'age (DESC)', sortProperty: 'year'
+//  })
  const [currentPage, setCurrentPage] =React.useState(1)
  const [countItems, setCountItems]= React.useState(1)
 ///////////////////////////////////////////////////////
 
-const onChangeCategory=React.useCallback((str)=>{
+////use later
+// const onChangeCategory=React.useCallback((str)=>{
+//     dispatch(setCategory(str))
+// },[dispatch])
+
+const onChangeCategory= (str)=> {
     dispatch(setCategory(str))
-},[])
+}
+
+// ////use later
+// const onChangeSort= React.useCallback((obj)=>{
+//     dispatch(setSort(obj))
+// }, [dispatch]) 
+
+const onChangeSort= (obj)=> {
+    dispatch(setSort(obj))
+}
+
 
   React.useEffect (()=>{
     setIsLoading(true)
@@ -57,7 +71,7 @@ const onChangeCategory=React.useCallback((str)=>{
       <div className="container">
           <div className="content__top">
             <Categories value= {activeCategory} onClickCategory={(category)=>onChangeCategory(category)}></Categories>
-            <Sort value={sort} onClickSort={(obj)=>setSort(obj)}></Sort>
+            <Sort value={sort} onClickSort={(obj)=>onChangeSort(obj)}></Sort>
           </div>
           <h2 className="content__title">All dolls</h2>
           <div className="content__items">
