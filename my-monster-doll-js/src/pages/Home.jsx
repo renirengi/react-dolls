@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import { useSelector, useDispatch } from 'react-redux';
-import { selectFilter, setCategory, setFilters, setSort } from '../redux/slices/filterSlice';
+import { selectFilter, setCategory, setFilters, setSort, setCurrentPage } from '../redux/slices/filterSlice';
 
 import Categories from '../components/Categories'
 import Sort from '../components/Sort'
@@ -18,12 +18,12 @@ export default function Home() {
  const { searchValue } = React.useContext(SearchContext)
  
 const dispatch = useDispatch()
-const {activeCategory, sort} = useSelector(selectFilter)
+const {activeCategory, sort, currentPage} = useSelector(selectFilter)
 // ////////////////////////////////////////////////////
 //  const [sort, setSort] = React.useState({
 //     name: 'age (DESC)', sortProperty: 'year'
 //  })
- const [currentPage, setCurrentPage] =React.useState(1)
+ ///const [currentPage, setCurrentPage] =React.useState(1)
  const [countItems, setCountItems]= React.useState(1)
 ///////////////////////////////////////////////////////
 
@@ -45,6 +45,14 @@ const onChangeSort= (obj)=> {
     dispatch(setSort(obj))
 }
 
+// ////use later
+// const onChangeCurrentPage= React.useCallback((num)=>{
+//     dispatch(setCurrentPage(num))
+// },[dispatch])
+
+const onChangeCurrentPage= (num)=> {
+    dispatch(setCurrentPage(num))
+}
 
   React.useEffect (()=>{
     setIsLoading(true)
@@ -77,7 +85,7 @@ const onChangeSort= (obj)=> {
           <div className="content__items">
           {isLoading ? [...new Array(6)].map((_, index)=><Skeleton key={index}></Skeleton>) : dataDolls}
           </div>
-          <Pagination count={countItems} onChangePage={(number)=>setCurrentPage(number)} currentPage={currentPage}></Pagination>
+          <Pagination count={countItems} onChangePage={(number)=>onChangeCurrentPage(number)} currentPage={currentPage}></Pagination>
         </div>
     </>
   )
