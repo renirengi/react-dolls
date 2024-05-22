@@ -1,4 +1,4 @@
-import React, { createContext } from 'react'
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import './scss/app.scss'
@@ -6,7 +6,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import Cart from './pages/Cart'
 import NotFound from './pages/NotFound'
-import DollPage from './pages/DollPage'
+///import DollPage from './pages/DollPage'
 
 export const SearchContext = React.createContext()
 function App() {

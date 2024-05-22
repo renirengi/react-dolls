@@ -1,5 +1,7 @@
 import React from 'react'
 import axios from 'axios'
+import { useSelector, useDispatch } from 'react-redux';
+import { selectFilter, setCategory, setFilters } from '../redux/slices/filterSlice';
 
 import Categories from '../components/Categories'
 import Sort from '../components/Sort'
@@ -7,21 +9,28 @@ import DollsBlock from '../components/DollsBlock'
 import Skeleton from '../components/DollsBlock/Skeleton'
 import { SearchContext } from '../App'
 import Pagination from '../components/Pagination'
+
+
 export default function Home() {
  const [dolls, setDolls] = React.useState([])
  const [isLoading, setIsLoading] = React.useState(true)
 
  const { searchValue } = React.useContext(SearchContext)
  
-
+const dispatch = useDispatch()
+const {activeCategory} = useSelector(selectFilter)
 // ////////////////////////////////////////////////////
  const [sort, setSort] = React.useState({
     name: 'age (DESC)', sortProperty: 'year'
  })
- const[activeCategory, setActiveCategory] = React.useState('All')
+ ///const[activeCategory, setActiveCategory] = React.useState('All')
  const [currentPage, setCurrentPage] =React.useState(1)
  const [countItems, setCountItems]= React.useState(1)
 ///////////////////////////////////////////////////////
+
+const onChangeCategory=React.useCallback((str)=>{
+    dispatch(setCategory(str))
+},[])
 
   React.useEffect (()=>{
     setIsLoading(true)
@@ -47,7 +56,7 @@ export default function Home() {
     <>
       <div className="container">
           <div className="content__top">
-            <Categories value= {activeCategory} onClickCategory={(category)=>setActiveCategory(category)}></Categories>
+            <Categories value= {activeCategory} onClickCategory={(category)=>onChangeCategory(category)}></Categories>
             <Sort value={sort} onClickSort={(obj)=>setSort(obj)}></Sort>
           </div>
           <h2 className="content__title">All dolls</h2>

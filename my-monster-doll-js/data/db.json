@@ -188,7 +188,7 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "price": 100
+      "price": 1000
     },
     {
       "year": 2010,
@@ -232,7 +232,7 @@
       "id": 11,
       "type": "Multipack",
       "reissue": false,
-      "price": 68
+      "price": 368
     },
     {
       "year": 2010,
@@ -684,7 +684,7 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "price": 140
+      "price": 1000
     },
     {
       "year": 2011,
@@ -803,7 +803,7 @@
       "id": 36,
       "type": "Multipack",
       "reissue": false,
-      "price": 84
+      "price": 384
     },
     {
       "year": 2011,
@@ -1027,7 +1027,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 54
+      "price": 540
     },
     {
       "year": 2011,
@@ -1484,7 +1484,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 107
+      "price": 307
     },
     {
       "year": 2012,
@@ -1616,7 +1616,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 434
     },
     {
       "year": 2012,
@@ -1644,7 +1644,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 126
+      "price": 326
     },
     {
       "year": 2012,
@@ -1670,7 +1670,7 @@
       "exclusive": "Kohls",
       "type": "Doll",
       "reissue": false,
-      "price": 88
+      "price": 188
     },
     {
       "year": 2012,
@@ -1696,7 +1696,7 @@
       "exclusive": "Kohls",
       "type": "Doll",
       "reissue": false,
-      "price": 96
+      "price": 196
     },
     {
       "year": 2012,
@@ -1853,7 +1853,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 96
+      "price": 196
     },
     {
       "year": 2012,
@@ -2141,7 +2141,7 @@
       "type": "Multipack",
       "exclusive": "Target",
       "reissue": false,
-      "price": 125
+      "price": 325
     },
     {
       "year": 2012,
@@ -2401,7 +2401,7 @@
       "type": "Multipack",
       "exclusive": "KMart",
       "reissue": false,
-      "price": 92
+      "price": 392
     },
     {
       "year": 2012,
@@ -2865,7 +2865,7 @@
       "id": 119,
       "type": "Multipack",
       "reissue": false,
-      "price": 66
+      "price": 366
     },
     {
       "year": 2013,
@@ -2893,7 +2893,7 @@
       "id": 120,
       "type": "Multipack",
       "reissue": false,
-      "price": 126
+      "price": 326
     },
     {
       "year": 2013,
@@ -3369,7 +3369,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 194
     },
     {
       "year": 2013,
@@ -3397,7 +3397,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 92
+      "price": 192
     },
     {
       "year": 2013,
@@ -3504,7 +3504,7 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 98
+      "price": 298
     },
     {
       "year": 2013,
@@ -3607,7 +3607,7 @@
       "type": "Multipack",
       "exclusive": "KMart",
       "reissue": false,
-      "price": 96
+      "price": 396
     },
     {
       "year": 2013,
@@ -3912,7 +3912,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 69
+      "price": 169
     },
     {
       "year": 2013,
@@ -3937,7 +3937,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 103
+      "price": 509
     },
     {
       "year": 2013,
@@ -3962,7 +3962,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 98
+      "price": 498
     },
     {
       "year": 2013,
@@ -3993,7 +3993,7 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "price": 58
+      "price": 1000
     },
     {
       "year": 2013,
@@ -4020,7 +4020,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 65
+      "price": 565
     },
     {
       "year": 2013,
@@ -4070,7 +4070,7 @@
       "exclusive": "Walmart",
       "reissue": true,
       "type": "Doll",
-      "price": 50
+      "price": 350
     },
     {
       "year": 2013,
@@ -4095,7 +4095,7 @@
       "exclusive": "Walmart",
       "reissue": true,
       "type": "Doll",
-      "price": 122
+      "price": 322
     },
     {
       "year": 2013,
@@ -4149,7 +4149,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 57
+      "price": 157
     },
     {
       "year": 2013,
@@ -4225,7 +4225,7 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 62
+      "price": 162
     },
     {
       "year": 2013,
@@ -4865,7 +4865,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 56
+      "price": 526
     },
     {
       "year": 2014,
@@ -4892,7 +4892,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 96
+      "price": 296
     },
     {
       "year": 2014,
@@ -4919,7 +4919,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 88
+      "price": 288
     },
     {
       "year": 2014,
@@ -5144,7 +5144,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 208
     },
     {
       "year": 2014,
@@ -5433,7 +5433,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 89
+      "price": 189
     },
     {
       "year": 2014,
@@ -5486,7 +5486,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 136
+      "price": 236
     },
     {
       "year": 2014,
@@ -5513,7 +5513,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 65
+      "price": 265
     },
     {
       "year": 2014,
@@ -5748,7 +5748,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 86
+      "price": 386
     },
     {
       "year": 2014,
@@ -5777,7 +5777,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 77
+      "price": 377
     },
     {
       "year": 2014,
@@ -5806,7 +5806,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 66
+      "price": 366
     },
     {
       "year": 2014,
@@ -5832,7 +5832,7 @@
       "id": 234,
       "type": "Doll",
       "reissue": false,
-      "price": 130
+      "price": 430
     },
     {
       "year": 2014,
@@ -5860,7 +5860,7 @@
       "type": "Multipack",
       "exclusive": "KMart",
       "reissue": false,
-      "price": 148
+      "price": 348
     },
     {
       "year": 2014,
@@ -5897,7 +5897,7 @@
       "type": "Multipack",
       "exclusive": "Comic Con",
       "reissue": false,
-      "price": 75
+      "price": 1000
     },
     {
       "year": 2014,
@@ -5927,7 +5927,7 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 140
+      "price": 340
     },
     {
       "year": 2014,
@@ -5958,7 +5958,7 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 60
+      "price": 360
     },
     {
       "year": 2014,
@@ -6337,7 +6337,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 70
+      "price": 270
     },
     {
       "year": 2014,
@@ -6364,7 +6364,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 73
+      "price": 273
     },
     {
       "year": 2014,
@@ -6414,7 +6414,7 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 82
+      "price": 182
     },
     {
       "year": 2014,
@@ -6472,7 +6472,7 @@
       "id": 258,
       "type": "Multipack",
       "reissue": false,
-      "price": 98
+      "price": 398
     },
     {
       "year": 2014,
@@ -6501,7 +6501,7 @@
       "id": 259,
       "type": "Multipack",
       "reissue": false,
-      "price": 59
+      "price": 359
     },
     {
       "year": 2015,
@@ -6527,7 +6527,7 @@
       "type": "Budget",
       "id": 260,
       "reissue": false,
-      "price": 141
+      "price": 54
     },
     {
       "year": 2015,
@@ -6553,7 +6553,7 @@
       "type": "Budget",
       "id": 261,
       "reissue": false,
-      "price": 108
+      "price": 51
     },
     {
       "year": 2015,
@@ -6607,7 +6607,7 @@
       "type": "Budget",
       "id": 263,
       "reissue": false,
-      "price": 87
+      "price": 52
     },
     {
       "year": 2015,
@@ -6637,7 +6637,7 @@
       "id": 264,
       "type": "Multipack",
       "reissue": false,
-      "price": 62
+      "price": 362
     },
     {
       "year": 2015,
@@ -7193,7 +7193,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 52
+      "price": 252
     },
     {
       "year": 2015,
@@ -7270,7 +7270,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 115
+      "price": 215
     },
     {
       "year": 2015,
@@ -7534,7 +7534,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 73
+      "price": 173
     },
     {
       "year": 2015,
@@ -7785,7 +7785,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 74
+      "price": 174
     },
     {
       "year": 2015,
@@ -7812,7 +7812,7 @@
       "exclusive": "Walmart",
       "reissue": false,
       "type": "Doll",
-      "price": 64
+      "price": 164
     },
     {
       "year": 2015,
@@ -7919,7 +7919,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 53
+      "price": 153
     },
     {
       "year": 2015,
@@ -7946,7 +7946,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 87
+      "price": 187
     },
     {
       "year": 2015,
@@ -8000,7 +8000,7 @@
       "type": "Budget",
       "id": 314,
       "reissue": false,
-      "price": 85
+      "price": 53
     },
     {
       "year": 2015,
@@ -8033,7 +8033,7 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 67
+      "price": 367
     },
     {
       "year": 2015,
@@ -8145,7 +8145,7 @@
       "type": "Budget",
       "id": 319,
       "reissue": false,
-      "price": 141
+      "price": 54
     },
     {
       "year": 2016,
@@ -8173,7 +8173,7 @@
       "type": "Budget",
       "id": 320,
       "reissue": false,
-      "price": 105
+      "price": 55
     },
     {
       "year": 2016,
@@ -8199,7 +8199,7 @@
       "type": "Budget",
       "id": 321,
       "reissue": false,
-      "price": 63
+      "price": 56
     },
     {
       "year": 2016,
@@ -8225,7 +8225,7 @@
       "type": "Budget",
       "id": 322,
       "reissue": false,
-      "price": 144
+      "price": 157
     },
     {
       "year": 2016,
@@ -8251,7 +8251,7 @@
       "type": "Budget",
       "id": 323,
       "reissue": false,
-      "price": 70
+      "price": 58
     },
     {
       "year": 2016,
@@ -8445,7 +8445,7 @@
       "type": "Budget",
       "id": 330,
       "reissue": false,
-      "price": 98
+      "price": 58
     },
     {
       "year": 2016,
@@ -8469,7 +8469,7 @@
       "type": "Budget",
       "id": 331,
       "reissue": false,
-      "price": 98
+      "price": 58
     },
     {
       "year": 2016,
@@ -8495,7 +8495,7 @@
       "type": "Budget",
       "id": 332,
       "reissue": false,
-      "price": 112
+      "price": 52
     },
     {
       "year": 2016,
@@ -8520,7 +8520,7 @@
       "type": "Budget",
       "id": 333,
       "reissue": false,
-      "price": 69
+      "price": 59
     },
     {
       "year": 2016,
@@ -8660,7 +8660,7 @@
       "type": "Budget",
       "id": 338,
       "reissue": false,
-      "price": 109
+      "price": 59
     },
     {
       "year": 2016,
@@ -8685,7 +8685,7 @@
       "type": "Budget",
       "id": 339,
       "reissue": false,
-      "price": 88
+      "price": 58
     },
     {
       "year": 2016,
@@ -8711,7 +8711,7 @@
       "type": "Budget",
       "id": 340,
       "reissue": false,
-      "price": 109
+      "price": 59
     },
     {
       "year": 2016,
@@ -8737,7 +8737,7 @@
       "type": "Budget",
       "id": 341,
       "reissue": false,
-      "price": 117
+      "price": 57
     },
     {
       "year": 2016,
@@ -8855,7 +8855,7 @@
       "type": "Budget",
       "id": 345,
       "reissue": false,
-      "price": 81
+      "price": 51
     },
     {
       "year": 2016,
@@ -8911,7 +8911,7 @@
       "type": "Budget",
       "id": 347,
       "reissue": false,
-      "price": 70
+      "price": 50
     },
     {
       "year": 2016,
@@ -8937,7 +8937,7 @@
       "type": "Budget",
       "id": 348,
       "reissue": false,
-      "price": 89
+      "price": 59
     },
     {
       "year": 2016,
@@ -9004,7 +9004,7 @@
       "exclusive": "Comic Con",
       "reissue": false,
       "type": "Doll",
-      "price": 131
+      "price": 831
     },
     {
       "year": 2016,
@@ -9034,7 +9034,7 @@
       "type": "Budget",
       "id": 351,
       "reissue": false,
-      "price": 98
+      "price": 58
     },
     {
       "year": 2016,
@@ -9067,7 +9067,7 @@
       "exclusive": "Amazon",
       "type": "Doll",
       "reissue": false,
-      "price": 127
+      "price": 1270
     },
     {
       "year": 2016,
@@ -9125,7 +9125,7 @@
       "type": "Budget",
       "id": 354,
       "reissue": false,
-      "price": 82
+      "price": 52
     },
     {
       "year": 2016,
@@ -9185,7 +9185,7 @@
       "type": "Budget",
       "id": 356,
       "reissue": false,
-      "price": 106
+      "price": 56
     },
     {
       "year": 2016,
@@ -9476,7 +9476,7 @@
       "type": "Budget",
       "id": 366,
       "reissue": false,
-      "price": 122
+      "price": 52
     },
     {
       "year": 2016,
@@ -9500,7 +9500,7 @@
       "type": "Budget",
       "id": 367,
       "reissue": false,
-      "price": 100
+      "price": 50
     },
     {
       "year": 2016,
@@ -9579,7 +9579,7 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 53
+      "price": 153
     },
     {
       "year": 2016,
@@ -9638,7 +9638,7 @@
       "id": 372,
       "type": "Multipack",
       "reissue": false,
-      "price": 98
+      "price": 398
     },
     {
       "year": 2016,
@@ -10482,7 +10482,7 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 72
+      "price": 172
     },
     {
       "year": 2017,
@@ -10519,7 +10519,7 @@
       "type": "Multipack",
       "exclusive": "Mattel Shop",
       "reissue": false,
-      "price": 148
+      "price": 348
     },
     {
       "year": 2017,
@@ -10548,7 +10548,7 @@
       "type": "Multipack",
       "id": 403,
       "reissue": false,
-      "price": 128
+      "price": 328
     },
     {
       "year": 2017,
@@ -10575,7 +10575,7 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 148
+      "price": 348
     },
     {
       "year": 2017,
@@ -10610,7 +10610,7 @@
       "type": "Multipack",
       "id": 405,
       "reissue": false,
-      "price": 146
+      "price": 246
     },
     {
       "year": 2017,
@@ -10650,7 +10650,7 @@
       "type": "Multipack",
       "exclusive": "Target",
       "reissue": false,
-      "price": 85
+      "price": 385
     },
     {
       "year": 2017,
@@ -10743,7 +10743,7 @@
       "type": "Multipack",
       "id": 409,
       "reissue": false,
-      "price": 102
+      "price": 202
     },
     {
       "year": 2017,
@@ -10945,7 +10945,7 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 74
+      "price": 374
     },
     {
       "year": 2018,
@@ -11053,7 +11053,7 @@
       "type": "Budget",
       "id": 420,
       "reissue": false,
-      "price": 65
+      "price": 50
     },
     {
       "year": 2018,
@@ -11077,7 +11077,7 @@
       "type": "Budget",
       "id": 421,
       "reissue": false,
-      "price": 91
+      "price": 50
     },
     {
       "year": 2018,
@@ -11101,7 +11101,7 @@
       "type": "Budget",
       "id": 422,
       "reissue": false,
-      "price": 69
+      "price": 50
     },
     {
       "year": 2018,
@@ -11124,7 +11124,7 @@
       "type": "Budget",
       "id": 423,
       "reissue": false,
-      "price": 107
+      "price": 50
     },
     {
       "year": 2018,
@@ -11339,7 +11339,7 @@
       "id": 431,
       "type": "Multipack",
       "reissue": false,
-      "price": 142
+      "price": 342
     },
     {
       "year": 2018,
@@ -11366,7 +11366,7 @@
       "type": "Multipack",
       "id": 432,
       "reissue": false,
-      "price": 55
+      "price": 255
     },
     {
       "year": 2018,
@@ -11643,7 +11643,7 @@
       "id": 442,
       "type": "Doll",
       "reissue": false,
-      "price": 87
+      "price": 587
     },
     {
       "year": 2020,
@@ -11680,10 +11680,10 @@
         "gnp21_grady_twins-9"
       ],
       "description": "The Grady Twins are inspired by characters from the 1980 The Shining film. Each girl has big brown eyes, full lips, ad beautiful brown hair accentuated by an axe barrette.\nThey have matching outfits that feature babydoll dresses. Each light blue dress is detailed with white dots, sheer sleeves, and a pleated bodice. A pink ribbon with a bow is at the waist and white lace trims the collar, sleeves, and skirt.\nOn their feet are white knee-high stockings and black mary jane shoes. The shoes have green hedge-like platforms with animal-shaped heels.\nSeveral accessories are included with the twins. There is a key to room 237, a page from Jack’s typewriter, and a tennis ball. These Skullector dolls have 11 points of articulation and include doll stands.\nDolls ordered from the Mattel Creations website also came with a Grady Twins print. The print is individually numbered and limited to 500.\nCome play with us, ghoul...\n\nHello there. We see you playing ALL alone. We, of all ghouls, understand just how lonely this hotel can be... especially when it's monstrously snowy outside. Why don't you come play with us? We have been haunting these halls for ever and ever and ever, lurking for a guest like you to be our new beast friend. Somebody who can appreciate how scary-cute we are - mirror images, holding hands in our matching dresses. OH! Please don't ride your tricycle away! Maybe we can use this key to play a fangtastic game of hide-and-shriek in room 237?! We only hope you have a freaky-fab time here at your stay at the Overlook Hotel.",
-      "id": 443,
+      "id": 643,
       "type": "Multipack",
       "reissue": false,
-      "price": 131
+      "price": 631
     }
   ]
 }
