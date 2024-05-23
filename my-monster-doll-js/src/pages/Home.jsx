@@ -1,13 +1,13 @@
 import React from 'react'
 import axios from 'axios'
 import qs from 'qs'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, useLocation} from 'react-router-dom'
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter, setCategory, setFilters, setSort, setCurrentPage } from '../redux/slices/filterSlice';
 
 import Categories from '../components/Categories'
-import Sort from '../components/Sort'
+import Sort, {sortList} from '../components/Sort'
 import DollsBlock from '../components/DollsBlock'
 import Skeleton from '../components/DollsBlock/Skeleton'
 import { SearchContext } from '../App'
@@ -17,8 +17,10 @@ import Pagination from '../components/Pagination'
 export default function Home() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
+const location = useLocation()
  const [dolls, setDolls] = React.useState([])
  const [isLoading, setIsLoading] = React.useState(true)
+ const isMounted = React.useRef(false);
 
  const { searchValue } = React.useContext(SearchContext)
  
@@ -26,34 +28,39 @@ const navigate = useNavigate()
 const {activeCategory, sort, currentPage} = useSelector(selectFilter)
 // ////////////////////////////////////////////////////
  const [countItems, setCountItems]= React.useState(1)
+ const [currentUrl, setCurrentUrl]=React.useState('')
 ///////////////////////////////////////////////////////
 
-////use later
-// const onChangeCategory=React.useCallback((str)=>{
-//     dispatch(setCategory(str))
-// },[dispatch])
-
-const onChangeCategory= (str)=> {
+//use later
+const onChangeCategory=React.useCallback((str)=>{
     dispatch(setCategory(str))
-}
+    isMounted.current= true
+  
+},[dispatch, location.hash])
 
-// ////use later
-// const onChangeSort= React.useCallback((obj)=>{
-//     dispatch(setSort(obj))
-// }, [dispatch]) 
+// const onChangeCategory= (str)=> {
+//     dispatch(setCategory(str))
+// }
 
-const onChangeSort= (obj)=> {
+////use later
+const onChangeSort= React.useCallback((obj)=>{
     dispatch(setSort(obj))
-}
+    isMounted.current= true
+}, [dispatch]) 
 
-// ////use later
-// const onChangeCurrentPage= React.useCallback((num)=>{
-//     dispatch(setCurrentPage(num))
-// },[dispatch])
+// const onChangeSort= (obj)=> {
+//     dispatch(setSort(obj))
+// }
 
-const onChangeCurrentPage= (num)=> {
+////use later
+const onChangeCurrentPage= React.useCallback((num)=>{
     dispatch(setCurrentPage(num))
-}
+    isMounted.current= true
+},[dispatch])
+
+// const onChangeCurrentPage= (num)=> {
+//     dispatch(setCurrentPage(num))
+// }
 
   React.useEffect (()=>{
     setIsLoading(true)
@@ -73,13 +80,33 @@ const onChangeCurrentPage= (num)=> {
   },[activeCategory, currentPage, searchValue, sort])
 
   React.useEffect(()=> {
+    
     const queryString = qs.stringify({
         sortProperty: sort.sortProperty,
         activeCategory,
         currentPage,
     });
-    navigate(`?${queryString}`)
+    if(isMounted.current){
+       navigate(`?${queryString}`)
+    }
+    
   },[activeCategory, currentPage, navigate, sort.sortProperty])
+
+  React.useEffect(() => {
+    if (window.location.search) {
+      const params = qs.parse(window.location.search.substring(1));
+
+      const sort = sortList.find((obj) => obj.sortProperty === params.sortProperty);
+
+      dispatch(
+        setFilters({
+          ...params,
+          sort,
+        }),
+      );
+      
+    }
+  }, [dispatch]);
   
   const dataDolls = dolls.map((obj)=> 
     <DollsBlock key={obj.id} {...obj}></DollsBlock>)

@@ -3,7 +3,7 @@ import React from 'react'
 
 ////const sortList = ['age', 'price', 'alphabet']
 
-const sortList =[
+export const sortList =[
   { name: 'age (DESC)', sortProperty: 'year' },
   { name: 'age (ASC)', sortProperty: '-year' },
   { name: 'price (DESC)', sortProperty: 'price' },
