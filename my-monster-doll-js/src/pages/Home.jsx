@@ -1,5 +1,8 @@
 import React from 'react'
 import axios from 'axios'
+import qs from 'qs'
+import {useNavigate} from 'react-router-dom'
+
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter, setCategory, setFilters, setSort, setCurrentPage } from '../redux/slices/filterSlice';
 
@@ -12,18 +15,16 @@ import Pagination from '../components/Pagination'
 
 
 export default function Home() {
+const dispatch = useDispatch()
+const navigate = useNavigate()
  const [dolls, setDolls] = React.useState([])
  const [isLoading, setIsLoading] = React.useState(true)
 
  const { searchValue } = React.useContext(SearchContext)
  
-const dispatch = useDispatch()
+
 const {activeCategory, sort, currentPage} = useSelector(selectFilter)
 // ////////////////////////////////////////////////////
-//  const [sort, setSort] = React.useState({
-//     name: 'age (DESC)', sortProperty: 'year'
-//  })
- ///const [currentPage, setCurrentPage] =React.useState(1)
  const [countItems, setCountItems]= React.useState(1)
 ///////////////////////////////////////////////////////
 
@@ -70,6 +71,15 @@ const onChangeCurrentPage= (num)=> {
     })
     window.scrollTo(0,0)
   },[activeCategory, currentPage, searchValue, sort])
+
+  React.useEffect(()=> {
+    const queryString = qs.stringify({
+        sortProperty: sort.sortProperty,
+        activeCategory,
+        currentPage,
+    });
+    navigate(`?${queryString}`)
+  },[activeCategory, currentPage, navigate, sort.sortProperty])
   
   const dataDolls = dolls.map((obj)=> 
     <DollsBlock key={obj.id} {...obj}></DollsBlock>)
