@@ -12,7 +12,7 @@ export default function Pagination({count, onChangePage, currentPage}) {
          nextLabel='>'
          onPageChange={(event)=> onChangePage (event.selected+1)}
          pageRangeDisplayed={3}
-         pageCount={Math.ceil(count/6)}
+         pageCount={Math.ceil(count/8)}
          forcePage ={currentPage-1}
          previousLabel='<'
          renderOnZeroPageCount={null}

@@ -1,14 +1,26 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import { addItem } from '../../redux/slices/cartSlice';
+import { useSelector, useDispatch } from 'react-redux';
 
-export default function DollsBlock({ character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
+export default function DollsBlock({ id, character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
+   const dispatch = useDispatch();
+   const cartItem = useSelector(state => state.cart.items.find(obj => obj.id ===id));
+   const addedCount = cartItem? cartItem.count :0;
+   
+   const onClickAdd =() => {
+    const item = {
+      id, character, price, year, galleryImagesLinks, series
+    }
+    dispatch(addItem(item))
+  }
   return (
     <div className='dolls-block-wrapper'>
       <div className="dolls-block">
   <img
     className="dolls-block__image"
     src={`/img/${galleryImagesLinks[0]}`}
-    alt="Pizza"
+    alt="Doll"
   />
   <div className="dolls-block__title-container">
 
@@ -24,7 +36,7 @@ export default function DollsBlock({ character, year, galleryImagesLinks, series
   </div>
   <div className="dolls-block__bottom">
     <div className="dolls-block__price">{price} $</div>
-    <div className="button button--outline button--add">
+    <div  onClick={onClickAdd} className="button button--outline button--add">
       <svg
         width="12"
         height="12"
@@ -38,7 +50,7 @@ export default function DollsBlock({ character, year, galleryImagesLinks, series
         />
       </svg>
       <span>Add</span>
-      <i>1</i>
+      {addedCount>0 &&<i>{addedCount}</i>}
     </div>
   </div>
   </div>

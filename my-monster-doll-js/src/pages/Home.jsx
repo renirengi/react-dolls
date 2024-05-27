@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import qs from 'qs'
-import {useNavigate, useLocation} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter, setCategory, setFilters, setSort, setCurrentPage } from '../redux/slices/filterSlice';
@@ -17,26 +17,24 @@ import Pagination from '../components/Pagination'
 export default function Home() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
-const location = useLocation()
  const [dolls, setDolls] = React.useState([])
  const [isLoading, setIsLoading] = React.useState(true)
  const isMounted = React.useRef(false);
 
  const { searchValue } = React.useContext(SearchContext)
- 
 
 const {activeCategory, sort, currentPage} = useSelector(selectFilter)
 // ////////////////////////////////////////////////////
  const [countItems, setCountItems]= React.useState(1)
- const [currentUrl, setCurrentUrl]=React.useState('')
 ///////////////////////////////////////////////////////
 
 //use later
 const onChangeCategory=React.useCallback((str)=>{
     dispatch(setCategory(str))
     isMounted.current= true
+    onChangeCurrentPage(1)
   
-},[dispatch, location.hash])
+},[dispatch])
 
 // const onChangeCategory= (str)=> {
 //     dispatch(setCategory(str))
@@ -70,7 +68,7 @@ const onChangeCurrentPage= React.useCallback((num)=>{
    const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
    const search = searchValue ? `&q=${searchValue}` : '';
    
-    axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=6&${category}&_sort=${sortBy}&_order=${order}${search}`).
+    axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}`).
     then((res)=>{
       setDolls(res.data)
       setCountItems(res.headers["x-total-count"])
