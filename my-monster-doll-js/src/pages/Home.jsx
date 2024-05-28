@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react'
 import axios from 'axios'
 import qs from 'qs'
@@ -28,6 +29,12 @@ const {activeCategory, sort, currentPage} = useSelector(selectFilter)
  const [countItems, setCountItems]= React.useState(1)
 ///////////////////////////////////////////////////////
 
+////use later
+const onChangeCurrentPage= React.useCallback((num)=>{
+    dispatch(setCurrentPage(num))
+    isMounted.current= true
+},[dispatch])
+
 //use later
 const onChangeCategory=React.useCallback((str)=>{
     dispatch(setCategory(str))
@@ -36,9 +43,6 @@ const onChangeCategory=React.useCallback((str)=>{
   
 },[dispatch])
 
-// const onChangeCategory= (str)=> {
-//     dispatch(setCategory(str))
-// }
 
 ////use later
 const onChangeSort= React.useCallback((obj)=>{
@@ -46,34 +50,29 @@ const onChangeSort= React.useCallback((obj)=>{
     isMounted.current= true
 }, [dispatch]) 
 
-// const onChangeSort= (obj)=> {
-//     dispatch(setSort(obj))
-// }
+ const fetchDolls = async() => {
+  setIsLoading(true)
 
-////use later
-const onChangeCurrentPage= React.useCallback((num)=>{
-    dispatch(setCurrentPage(num))
-    isMounted.current= true
-},[dispatch])
-
-// const onChangeCurrentPage= (num)=> {
-//     dispatch(setCurrentPage(num))
-// }
+  const category = activeCategory!=='All'? `type=${activeCategory}`: ''
+  const sortBy = sort.sortProperty.replace('-', '')
+  const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
+  const search = searchValue ? `&q=${searchValue}` : ''; 
+  try {
+   const res = await  axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}`)
+   setDolls(res.data)
+   setCountItems(res.headers["x-total-count"])
+  }
+  catch(error) {
+    setIsLoading()
+    alert ('Error when receiving dolls!')
+  } 
+  finally {
+    setIsLoading(false)
+  }
+ }
 
   React.useEffect (()=>{
-    setIsLoading(true)
-
-   const category = activeCategory!=='All'? `type=${activeCategory}`: ''
-   const sortBy = sort.sortProperty.replace('-', '')
-   const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
-   const search = searchValue ? `&q=${searchValue}` : '';
-   
-    axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}`).
-    then((res)=>{
-      setDolls(res.data)
-      setCountItems(res.headers["x-total-count"])
-      setIsLoading(false)
-    })
+    fetchDolls();
     window.scrollTo(0,0)
   },[activeCategory, currentPage, searchValue, sort])
 
