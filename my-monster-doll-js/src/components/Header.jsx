@@ -1,13 +1,17 @@
 import React from 'react'
 import logoPng from '../assets/img/doll-logo.png'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import Search from './Search'
 import {useSelector} from 'react-redux'
 
 
 export default function Header() {
+   let {pathname} = useLocation()
+
   const {items, totalPrice} =useSelector(state => state.cart)
   const totalCount = items.reduce ((sum, item)=>sum+item.count, 0)
+ 
+  
   return (
     <>
           <div className="header">
@@ -23,6 +27,7 @@ export default function Header() {
           </Link>
           <Search></Search>
           <div className="header__cart">
+          {pathname !=='/cart' && 
             <Link to="/cart" className="button button--cart">
               <span>{totalPrice}</span>
               <div className="button__delimiter"></div>
@@ -56,7 +61,7 @@ export default function Header() {
                 />
               </svg>
               <span>{totalCount}</span>
-            </Link>
+            </Link>}
           </div>
         </div>
       </div>
