@@ -11,7 +11,6 @@ import Categories from '../components/Categories'
 import Sort, {sortList} from '../components/Sort'
 import DollsBlock from '../components/DollsBlock'
 import Skeleton from '../components/DollsBlock/Skeleton'
-import { SearchContext } from '../App'
 import Pagination from '../components/Pagination'
 
 
@@ -21,17 +20,16 @@ const navigate = useNavigate()
 
  const isMounted = React.useRef(false);
 
- const { searchValue } = React.useContext(SearchContext)
-
-const {activeCategory, sort, currentPage} = useSelector(selectFilter)
+const {activeCategory, sort, currentPage, searchValue} = useSelector(selectFilter)
 const {items, status, itemsCount} = useSelector(selectDolls);
-////use later
+
+
 const onChangeCurrentPage= React.useCallback((num)=>{
     dispatch(setCurrentPage(num))
     isMounted.current= true
 },[dispatch])
 
-//use later
+
 const onChangeCategory=React.useCallback((str)=>{
     dispatch(setCategory(str))
     isMounted.current= true
@@ -40,21 +38,18 @@ const onChangeCategory=React.useCallback((str)=>{
 },[dispatch])
 
 
-////use later
+
 const onChangeSort= React.useCallback((obj)=>{
     dispatch(setSort(obj))
     isMounted.current= true
 }, [dispatch]) 
 
  const getDolls = async() => {
- 
-
   const category = activeCategory!=='All'? `type=${activeCategory}`: ''
   const sortBy = sort.sortProperty.replace('-', '')
   const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
   const search = searchValue ? `&q=${searchValue}` : ''; 
-  
-   
+
    dispatch(fetchDolls({
     category,
     sortBy,
@@ -62,7 +57,7 @@ const onChangeSort= React.useCallback((obj)=>{
     search,
     currentPage
    }))
-  
+
   }
  
 
@@ -83,6 +78,7 @@ const onChangeSort= React.useCallback((obj)=>{
     }
     
   },[activeCategory, currentPage, navigate, sort.sortProperty])
+
 
   React.useEffect(() => {
     if (window.location.search) {

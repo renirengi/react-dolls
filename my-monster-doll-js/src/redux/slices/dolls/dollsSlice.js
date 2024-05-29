@@ -6,8 +6,8 @@ export const fetchDolls = createAsyncThunk(
         const { category, sortBy, order, search, currentPage } = params
         const { data, headers } = await axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}`)
         const itemCount = headers["x-total-count"];
-        return { data, itemCount }
 
+        return { data, itemCount }
     }
 );
 

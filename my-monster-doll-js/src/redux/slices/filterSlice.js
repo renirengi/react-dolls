@@ -5,6 +5,7 @@ const initialState = {
         name: 'age (DESC)', sortProperty: 'year'
     },
     currentPage: 1,
+    searchValue: ''
 };
 const filterSlice = createSlice({
     name: "filter",
@@ -19,6 +20,9 @@ const filterSlice = createSlice({
         setCurrentPage(state, action) {
             state.currentPage = action.payload;
         },
+        setSearchValue(state, action) {
+            state.searchValue = action.payload;
+        },
         setFilters(state, action) {
             state.activeCategory = action.payload.activeCategory;
             state.sort = action.payload.sort;
@@ -27,5 +31,6 @@ const filterSlice = createSlice({
     },
 })
 export const selectFilter = (state) => state.filter;
-export const { setCategory, setFilters, setSort, setCurrentPage } = filterSlice.actions;
+export const selectSearchValue = (state) => state.filter.searchValue;
+export const { setCategory, setFilters, setSort, setCurrentPage, setSearchValue } = filterSlice.actions;
 export default filterSlice.reducer;

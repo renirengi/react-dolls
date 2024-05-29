@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import { addItem } from '../../redux/slices/cartSlice';
+import { addItem, selectCartItemById } from '../../redux/slices/cartSlice';
 import { useSelector, useDispatch } from 'react-redux';
 
 export default function DollsBlock({ id, character, year, galleryImagesLinks, series, reissue, exclusive, price}) {
    const dispatch = useDispatch();
-   const cartItem = useSelector(state => state.cart.items.find(obj => obj.id ===id));
+   const cartItem = useSelector(state => selectCartItemById(id, state));
    const addedCount = cartItem? cartItem.count :0;
    
    const onClickAdd =() => {
