@@ -7,7 +7,7 @@ const initialState = {
     currentPage: 1,
 };
 const filterSlice = createSlice({
-    name: "filters",
+    name: "filter",
     initialState,
     reducers: {
         setCategory(state, action) {

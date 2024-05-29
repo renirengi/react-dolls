@@ -1,11 +1,11 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+
 import React from 'react'
-import axios from 'axios'
 import qs from 'qs'
 import {useNavigate} from 'react-router-dom'
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter, setCategory, setFilters, setSort, setCurrentPage } from '../redux/slices/filterSlice';
+import { selectDolls, fetchDolls} from '../redux/slices/dolls/dollsSlice';
 
 import Categories from '../components/Categories'
 import Sort, {sortList} from '../components/Sort'
@@ -18,17 +18,13 @@ import Pagination from '../components/Pagination'
 export default function Home() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
- const [dolls, setDolls] = React.useState([])
- const [isLoading, setIsLoading] = React.useState(true)
+
  const isMounted = React.useRef(false);
 
  const { searchValue } = React.useContext(SearchContext)
 
 const {activeCategory, sort, currentPage} = useSelector(selectFilter)
-// ////////////////////////////////////////////////////
- const [countItems, setCountItems]= React.useState(1)
-///////////////////////////////////////////////////////
-
+const {items, status, itemsCount} = useSelector(selectDolls);
 ////use later
 const onChangeCurrentPage= React.useCallback((num)=>{
     dispatch(setCurrentPage(num))
@@ -50,29 +46,28 @@ const onChangeSort= React.useCallback((obj)=>{
     isMounted.current= true
 }, [dispatch]) 
 
- const fetchDolls = async() => {
-  setIsLoading(true)
+ const getDolls = async() => {
+ 
 
   const category = activeCategory!=='All'? `type=${activeCategory}`: ''
   const sortBy = sort.sortProperty.replace('-', '')
   const order = sort.sortProperty.includes ('-') ? 'asc' : 'desc'
   const search = searchValue ? `&q=${searchValue}` : ''; 
-  try {
-   const res = await  axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}`)
-   setDolls(res.data)
-   setCountItems(res.headers["x-total-count"])
+  
+   
+   dispatch(fetchDolls({
+    category,
+    sortBy,
+    order,
+    search,
+    currentPage
+   }))
+  
   }
-  catch(error) {
-    setIsLoading()
-    alert ('Error when receiving dolls!')
-  } 
-  finally {
-    setIsLoading(false)
-  }
- }
+ 
 
   React.useEffect (()=>{
-    fetchDolls();
+    getDolls();
     window.scrollTo(0,0)
   },[activeCategory, currentPage, searchValue, sort])
 
@@ -105,7 +100,7 @@ const onChangeSort= React.useCallback((obj)=>{
     }
   }, [dispatch]);
   
-  const dataDolls = dolls.map((obj)=> 
+  const dataDolls = items.map((obj)=> 
     <DollsBlock key={obj.id} {...obj}></DollsBlock>)
   
   return (
@@ -116,10 +111,15 @@ const onChangeSort= React.useCallback((obj)=>{
             <Sort value={sort} onClickSort={(obj)=>onChangeSort(obj)}></Sort>
           </div>
           <h2 className="content__title">All dolls</h2>
-          <div className="content__items">
-          {isLoading ? [...new Array(6)].map((_, index)=><Skeleton key={index}></Skeleton>) : dataDolls}
-          </div>
-          <Pagination count={countItems} onChangePage={(number)=>onChangeCurrentPage(number)} currentPage={currentPage}></Pagination>
+          {status==='error'? 
+          (<div className='content_error-info'>
+            <h2>We can not get dolls from the server!</h2>
+            <p>Try logging in later</p>
+            </div>) :
+          (<div className="content__items">
+          {status==='loading' ? [...new Array(6)].map((_, index)=><Skeleton key={index}></Skeleton>) : dataDolls}
+          </div>)}
+          <Pagination count={itemsCount} onChangePage={(number)=>onChangeCurrentPage(number)} currentPage={currentPage}></Pagination>
         </div>
     </>
   )
