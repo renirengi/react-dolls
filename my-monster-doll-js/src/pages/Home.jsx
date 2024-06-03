@@ -1,7 +1,7 @@
 
 import React from 'react'
 import qs from 'qs'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, Link} from 'react-router-dom'
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter, setCategory, setFilters, setSort, setCurrentPage } from '../redux/slices/filterSlice';
@@ -17,6 +17,8 @@ import Pagination from '../components/Pagination'
 export default function Home() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
+
+const [openFilters, setOpenFilters] = React.useState(false)
 
  const isMounted = React.useRef(false);
 
@@ -97,15 +99,17 @@ const onChangeSort= React.useCallback((obj)=>{
   }, [dispatch]);
   
   const dataDolls = items.map((obj)=> 
-    <DollsBlock key={obj.id} {...obj}></DollsBlock>)
+    <Link to={`doll/${obj.id}`} key={obj.id}><DollsBlock  {...obj}></DollsBlock></Link>)
   
   return (
     <>
       <div className="container">
           <div className="content__top">
             <Categories value= {activeCategory} onClickCategory={(category)=>onChangeCategory(category)}></Categories>
+            <div onClick={()=>setOpenFilters(true)}>Open full filters</div>
             <Sort value={sort} onClickSort={(obj)=>onChangeSort(obj)}></Sort>
           </div>
+          {/* {openFilters && <></>}  */}
           <h2 className="content__title">All dolls</h2>
           {status==='error'? 
           (<div className='content_error-info'>
