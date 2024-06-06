@@ -3,8 +3,8 @@ import axios from 'axios';
 export const fetchDolls = createAsyncThunk(
     'dolls/fetchDollsStatus',
     async (params) => {
-        const { category, sortBy, order, search, currentPage } = params
-        const { data, headers } = await axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}`)
+        const { category, sortBy, order, search, currentPage, character, series, year, gender, exclusive } = params
+        const { data, headers } = await axios.get(`http://localhost:3000/dolls?_page=${currentPage}&_limit=8&${category}&_sort=${sortBy}&_order=${order}${search}${character}${series}${year}${gender}${exclusive}`)
         const itemCount = headers["x-total-count"];
 
         return { data, itemCount }

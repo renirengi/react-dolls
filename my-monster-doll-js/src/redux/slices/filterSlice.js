@@ -1,10 +1,17 @@
 import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
-    activeCategory: "All",
+    activeCategory: "",
+    activeCharacter: '',
+    activeSeries: '',
+    activeYear: '',
+    activeGender: '',
+    activeExclusive: '',
     sort: {
         name: 'age (DESC)', sortProperty: 'year'
     },
     currentPage: 1,
+
+
     searchValue: ''
 };
 const filterSlice = createSlice({
@@ -13,6 +20,21 @@ const filterSlice = createSlice({
     reducers: {
         setCategory(state, action) {
             state.activeCategory = action.payload;
+        },
+        setCharacter(state, action) {
+            state.activeCharacter = action.payload;
+        },
+        setYear(state, action) {
+            state.activeYear = action.payload;
+        },
+        setGender(state, action) {
+            state.activeGender = action.payload;
+        },
+        setSeries(state, action) {
+            state.activeSeries = action.payload;
+        },
+        setExclusive(state, action) {
+            state.activeExclusive = action.payload;
         },
         setSort(state, action) {
             state.sort = action.payload;
@@ -26,11 +48,27 @@ const filterSlice = createSlice({
         setFilters(state, action) {
             state.activeCategory = action.payload.activeCategory;
             state.sort = action.payload.sort;
+            state.activeCharacter = action.payload.activeCharacter;
+            state.activeSeries = action.payload.activeSeries;
+            state.activeGender = action.payload.activeGender;
+            state.activeExclusive = action.payload.activeExclusive;
+
+
+            state.activeYear = action.payload.activeYear;
+
             state.currentPage = Number(action.payload.currentPage);
         },
+        resetAdditionalFilters(state) {
+            state.activeCharacter = '';
+            state.activeExclusive = '';
+            state.activeGender = '';
+            state.activeSeries = '';
+            state.activeYear = '';
+        }
     },
 })
 export const selectFilter = (state) => state.filter;
+
 export const selectSearchValue = (state) => state.filter.searchValue;
-export const { setCategory, setFilters, setSort, setCurrentPage, setSearchValue } = filterSlice.actions;
+export const { resetAdditionalFilters, setCategory, setFilters, setSort, setCurrentPage, setSearchValue, setCharacter, setExclusive, setGender, setSeries, setYear } = filterSlice.actions;
 export default filterSlice.reducer;

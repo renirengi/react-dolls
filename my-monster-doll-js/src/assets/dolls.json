@@ -2,7 +2,7 @@
 
 	[
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Clawdeen Wolf"
 		],
@@ -21,7 +21,7 @@
 		"price": 660
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Cleo de Nile"
 		],
@@ -40,7 +40,7 @@
 		"price": 454
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Frankie Stein"
 		],
@@ -59,7 +59,7 @@
 		"price": 638
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Clawdeen Wolf"
 		],
@@ -78,7 +78,7 @@
 		"price": 180
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Cleo de Nile"
 		],
@@ -97,7 +97,7 @@
 		"price": 474
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Draculaura"
 		],
@@ -116,7 +116,7 @@
 		"price": 366
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Frankie Stein"
 		],
@@ -135,7 +135,7 @@
 		"price": 830
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Jackson Jekyll"
 		],
@@ -154,7 +154,7 @@
 		"price": 253
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Frankie Stein"
 		],
@@ -174,7 +174,7 @@
 		"price": 706
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Clawdeen Wolf"
 		],
@@ -193,7 +193,7 @@
 		"price": 692
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Cleo de Nile",
 			"Deuce Gorgon"
@@ -214,7 +214,7 @@
 		"price": 265
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Draculaura"
 		],
@@ -233,7 +233,7 @@
 		"price": 340
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Frankie Stein"
 		],
@@ -253,7 +253,7 @@
 		"price": 161
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Ghoulia Yelps"
 		],
@@ -272,7 +272,7 @@
 		"price": 854
 	},
 	{
-		"year": 2010,
+		"year": "2010",
 		"character": [
 			"Holt Hyde"
 		],

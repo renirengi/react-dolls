@@ -1,7 +1,7 @@
 {
   "dolls": [
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -21,7 +21,7 @@
       "price": 107
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Cleo de Nile"
       ],
@@ -42,7 +42,7 @@
       "price": 100
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Frankie Stein"
       ],
@@ -63,7 +63,7 @@
       "price": 112
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -84,7 +84,7 @@
       "price": 51
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Cleo de Nile"
       ],
@@ -105,7 +105,7 @@
       "price": 115
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Draculaura"
       ],
@@ -126,7 +126,7 @@
       "price": 60
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Frankie Stein"
       ],
@@ -147,7 +147,7 @@
       "price": 111
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Jackson Jekyll"
       ],
@@ -168,7 +168,7 @@
       "price": 131
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Frankie Stein"
       ],
@@ -191,7 +191,7 @@
       "price": 1000
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -212,7 +212,7 @@
       "price": 108
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Cleo de Nile",
         "Deuce Gorgon"
@@ -235,7 +235,7 @@
       "price": 368
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Draculaura"
       ],
@@ -256,7 +256,7 @@
       "price": 142
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Frankie Stein"
       ],
@@ -277,7 +277,7 @@
       "price": 128
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -298,7 +298,7 @@
       "price": 78
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Holt Hyde"
       ],
@@ -319,7 +319,7 @@
       "price": 87
     },
     {
-      "year": 2010,
+      "year": "2010",
       "character": [
         "Lagoona Blue"
       ],
@@ -340,7 +340,7 @@
       "price": 117
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Frankie Stein"
       ],
@@ -361,7 +361,7 @@
       "price": 70
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -382,7 +382,7 @@
       "price": 117
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Lagoona Blue"
       ],
@@ -403,7 +403,7 @@
       "price": 91
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Cleo de Nile"
       ],
@@ -424,7 +424,7 @@
       "price": 54
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Deuce Gorgon"
       ],
@@ -445,7 +445,7 @@
       "price": 138
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -466,7 +466,7 @@
       "price": 139
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Lagoona Blue"
       ],
@@ -487,7 +487,7 @@
       "price": 119
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Cleo de Nile"
       ],
@@ -508,7 +508,7 @@
       "price": 91
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Draculaura"
       ],
@@ -529,7 +529,7 @@
       "price": 134
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Frankie Stein"
       ],
@@ -550,7 +550,7 @@
       "price": 119
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -576,7 +576,7 @@
       "price": 137
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Lagoona Blue"
       ],
@@ -603,7 +603,7 @@
       "price": 140
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Draculaura"
       ],
@@ -629,7 +629,7 @@
       "price": 134
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Frankie Stein"
       ],
@@ -655,7 +655,7 @@
       "price": 87
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -687,7 +687,7 @@
       "price": 1000
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -714,7 +714,7 @@
       "price": 78
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Abbey Bominable"
       ],
@@ -735,7 +735,7 @@
       "price": 117
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -761,7 +761,7 @@
       "price": 116
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Cleo de Nile"
       ],
@@ -782,7 +782,7 @@
       "price": 60
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Draculaura",
         "Clawd Wolf"
@@ -806,7 +806,7 @@
       "price": 384
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Frankie Stein"
       ],
@@ -827,7 +827,7 @@
       "price": 107
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Lagoona Blue"
       ],
@@ -853,7 +853,7 @@
       "price": 108
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -879,7 +879,7 @@
       "price": 109
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Toralei Stripe"
       ],
@@ -905,7 +905,7 @@
       "price": 145
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Abbey Bominable"
       ],
@@ -931,7 +931,7 @@
       "price": 106
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -957,7 +957,7 @@
       "price": 149
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Gillington Gil Webber"
       ],
@@ -983,7 +983,7 @@
       "price": 61
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Lagoona Blue"
       ],
@@ -1004,7 +1004,7 @@
       "price": 137
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "C.A. Cupid"
       ],
@@ -1030,7 +1030,7 @@
       "price": 540
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Clawd Wolf"
       ],
@@ -1051,7 +1051,7 @@
       "price": 106
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -1077,7 +1077,7 @@
       "price": 91
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Draculaura"
       ],
@@ -1098,7 +1098,7 @@
       "price": 70
     },
     {
-      "year": 2011,
+      "year": "2011",
       "character": [
         "Frankie Stein"
       ],
@@ -1119,7 +1119,7 @@
       "price": 148
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -1140,7 +1140,7 @@
       "price": 83
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -1161,7 +1161,7 @@
       "price": 128
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Lagoona Blue"
       ],
@@ -1182,7 +1182,7 @@
       "price": 111
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Howleen Wolf"
       ],
@@ -1203,7 +1203,7 @@
       "price": 140
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Lagoona Blue"
       ],
@@ -1224,7 +1224,7 @@
       "price": 72
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Operetta"
       ],
@@ -1245,7 +1245,7 @@
       "price": 89
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Robecca Steam"
       ],
@@ -1266,7 +1266,7 @@
       "price": 84
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable"
       ],
@@ -1287,7 +1287,7 @@
       "price": 52
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -1308,7 +1308,7 @@
       "price": 91
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Draculaura"
       ],
@@ -1329,7 +1329,7 @@
       "price": 67
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Lagoona Blue"
       ],
@@ -1355,7 +1355,7 @@
       "price": 108
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Operetta"
       ],
@@ -1376,7 +1376,7 @@
       "price": 121
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -1402,7 +1402,7 @@
       "price": 66
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -1423,7 +1423,7 @@
       "price": 141
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -1444,7 +1444,7 @@
       "price": 94
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -1465,7 +1465,7 @@
       "price": 62
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable"
       ],
@@ -1487,7 +1487,7 @@
       "price": 307
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -1513,7 +1513,7 @@
       "price": 144
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Cleo de Nile"
       ],
@@ -1539,7 +1539,7 @@
       "price": 90
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Draculaura"
       ],
@@ -1565,7 +1565,7 @@
       "price": 71
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -1591,7 +1591,7 @@
       "price": 92
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable"
       ],
@@ -1619,7 +1619,7 @@
       "price": 434
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -1647,7 +1647,7 @@
       "price": 326
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -1673,7 +1673,7 @@
       "price": 188
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Operetta"
       ],
@@ -1699,7 +1699,7 @@
       "price": 196
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "C.A. Cupid"
       ],
@@ -1724,7 +1724,7 @@
       "price": 143
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable"
       ],
@@ -1750,7 +1750,7 @@
       "price": 85
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Cleo de Nile"
       ],
@@ -1776,7 +1776,7 @@
       "price": 53
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Draculaura"
       ],
@@ -1802,7 +1802,7 @@
       "price": 79
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -1828,7 +1828,7 @@
       "price": 82
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Draculaura"
       ],
@@ -1856,7 +1856,7 @@
       "price": 196
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -1884,7 +1884,7 @@
       "price": 106
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable"
       ],
@@ -1910,7 +1910,7 @@
       "price": 139
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -1936,7 +1936,7 @@
       "price": 117
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Deuce Gorgon"
       ],
@@ -1961,7 +1961,7 @@
       "price": 100
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Draculaura"
       ],
@@ -1986,7 +1986,7 @@
       "price": 75
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -2012,7 +2012,7 @@
       "price": 148
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -2037,7 +2037,7 @@
       "price": 123
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Jinafire Long"
       ],
@@ -2063,7 +2063,7 @@
       "price": 51
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Rochelle Goyle"
       ],
@@ -2089,7 +2089,7 @@
       "price": 103
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Skelita Calaveras"
       ],
@@ -2115,7 +2115,7 @@
       "price": 73
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf",
         "Howleen Wolf"
@@ -2144,7 +2144,7 @@
       "price": 325
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Nefera de Nile"
       ],
@@ -2170,7 +2170,7 @@
       "price": 114
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Operetta"
       ],
@@ -2196,7 +2196,7 @@
       "price": 136
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Jackson Jekyll"
       ],
@@ -2222,7 +2222,7 @@
       "price": 97
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Robecca Steam"
       ],
@@ -2248,7 +2248,7 @@
       "price": 130
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Rochelle Goyle"
       ],
@@ -2274,7 +2274,7 @@
       "price": 112
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Venus McFlytrap"
       ],
@@ -2300,7 +2300,7 @@
       "price": 86
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -2325,7 +2325,7 @@
       "price": 89
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Draculaura"
       ],
@@ -2351,7 +2351,7 @@
       "price": 82
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable"
       ],
@@ -2376,7 +2376,7 @@
       "price": 51
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Abbey Bominable",
         "Ghoulia Yelps"
@@ -2404,7 +2404,7 @@
       "price": 392
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -2428,7 +2428,7 @@
       "price": 84
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Frankie Stein"
       ],
@@ -2453,7 +2453,7 @@
       "price": 67
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -2477,7 +2477,7 @@
       "price": 127
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Lagoona Blue"
       ],
@@ -2501,7 +2501,7 @@
       "price": 76
     },
     {
-      "year": 2012,
+      "year": "2012",
       "character": [
         "Operetta"
       ],
@@ -2525,7 +2525,7 @@
       "price": 94
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Abbey Bominable"
       ],
@@ -2552,7 +2552,7 @@
       "price": 139
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -2578,7 +2578,7 @@
       "price": 114
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -2605,7 +2605,7 @@
       "price": 64
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -2631,7 +2631,7 @@
       "price": 130
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Gigi Grant"
       ],
@@ -2657,7 +2657,7 @@
       "price": 102
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Howleen Wolf"
       ],
@@ -2683,7 +2683,7 @@
       "price": 149
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Lagoona Blue"
       ],
@@ -2709,7 +2709,7 @@
       "price": 126
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -2735,7 +2735,7 @@
       "price": 94
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Abbey Bominable"
       ],
@@ -2761,7 +2761,7 @@
       "price": 77
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -2787,7 +2787,7 @@
       "price": 72
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Robecca Steam"
       ],
@@ -2813,7 +2813,7 @@
       "price": 83
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Skelita Calaveras"
       ],
@@ -2839,7 +2839,7 @@
       "price": 127
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Abbey Bominable",
         "Heath Burns"
@@ -2868,7 +2868,7 @@
       "price": 366
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Cleo de Nile",
         "Ghoulia Yelps"
@@ -2896,7 +2896,7 @@
       "price": 326
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Lagoona Blue"
       ],
@@ -2920,7 +2920,7 @@
       "price": 61
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Robecca Steam"
       ],
@@ -2944,7 +2944,7 @@
       "price": 82
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -2968,7 +2968,7 @@
       "price": 109
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -2992,7 +2992,7 @@
       "price": 57
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Cleo de Nile"
       ],
@@ -3016,7 +3016,7 @@
       "price": 63
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -3040,7 +3040,7 @@
       "price": 134
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Lagoona Blue"
       ],
@@ -3064,7 +3064,7 @@
       "price": 63
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdia Wolf"
       ],
@@ -3090,7 +3090,7 @@
       "price": 98
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Elissabat"
       ],
@@ -3116,7 +3116,7 @@
       "price": 137
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Honey Swamp"
       ],
@@ -3142,7 +3142,7 @@
       "price": 113
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Viperine Gorgon"
       ],
@@ -3168,7 +3168,7 @@
       "price": 124
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -3192,7 +3192,7 @@
       "price": 79
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Sloman Slo Mo Mortavitch"
       ],
@@ -3218,7 +3218,7 @@
       "price": 61
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -3242,7 +3242,7 @@
       "price": 125
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Venus McFlytrap"
       ],
@@ -3266,7 +3266,7 @@
       "price": 123
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Lagoona Blue"
       ],
@@ -3292,7 +3292,7 @@
       "price": 114
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Rochelle Goyle"
       ],
@@ -3318,7 +3318,7 @@
       "price": 60
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -3344,7 +3344,7 @@
       "price": 108
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -3372,7 +3372,7 @@
       "price": 194
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Scarah Screams"
       ],
@@ -3400,7 +3400,7 @@
       "price": 192
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Cleo de Nile"
       ],
@@ -3426,7 +3426,7 @@
       "price": 78
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -3452,7 +3452,7 @@
       "price": 126
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Catty Noir"
       ],
@@ -3478,7 +3478,7 @@
       "price": 138
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Headless Headmistress Bloodgood"
       ],
@@ -3507,7 +3507,7 @@
       "price": 298
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Jane Boolittle"
       ],
@@ -3531,7 +3531,7 @@
       "price": 116
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Abbey Bominable"
       ],
@@ -3557,7 +3557,7 @@
       "price": 135
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -3581,7 +3581,7 @@
       "price": 133
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura",
         "Clawd Wolf"
@@ -3610,7 +3610,7 @@
       "price": 396
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Venus McFlytrap"
       ],
@@ -3634,7 +3634,7 @@
       "price": 136
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Catrine DeMew"
       ],
@@ -3660,7 +3660,7 @@
       "price": 124
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -3686,7 +3686,7 @@
       "price": 118
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Jinafire Long"
       ],
@@ -3712,7 +3712,7 @@
       "price": 149
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -3736,7 +3736,7 @@
       "price": 112
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -3760,7 +3760,7 @@
       "price": 81
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -3784,7 +3784,7 @@
       "price": 129
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -3810,7 +3810,7 @@
       "price": 134
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Lagoona Blue"
       ],
@@ -3836,7 +3836,7 @@
       "price": 113
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Operetta"
       ],
@@ -3865,7 +3865,7 @@
       "price": 120
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -3890,7 +3890,7 @@
       "price": 130
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -3915,7 +3915,7 @@
       "price": 169
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -3940,7 +3940,7 @@
       "price": 509
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Toralei Stripe"
       ],
@@ -3965,7 +3965,7 @@
       "price": 498
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Wydowna Spider"
       ],
@@ -3996,7 +3996,7 @@
       "price": 1000
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Catrine DeMew"
       ],
@@ -4023,7 +4023,7 @@
       "price": 565
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -4048,7 +4048,7 @@
       "price": 110
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -4073,7 +4073,7 @@
       "price": 350
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -4098,7 +4098,7 @@
       "price": 322
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -4125,7 +4125,7 @@
       "price": 117
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -4152,7 +4152,7 @@
       "price": 157
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Draculaura"
       ],
@@ -4178,7 +4178,7 @@
       "price": 139
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Frankie Stein"
       ],
@@ -4203,7 +4203,7 @@
       "price": 121
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Holt Hyde"
       ],
@@ -4228,7 +4228,7 @@
       "price": 162
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Lagoona Blue"
       ],
@@ -4254,7 +4254,7 @@
       "price": 66
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Rochelle Goyle"
       ],
@@ -4279,7 +4279,7 @@
       "price": 126
     },
     {
-      "year": 2013,
+      "year": "2013",
       "character": [
         "Venus McFlytrap"
       ],
@@ -4305,7 +4305,7 @@
       "price": 64
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Nefera de Nile"
       ],
@@ -4333,7 +4333,7 @@
       "price": 95
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Abbey Bominable"
       ],
@@ -4357,7 +4357,7 @@
       "price": 76
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein"
       ],
@@ -4381,7 +4381,7 @@
       "price": 128
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Robecca Steam"
       ],
@@ -4405,7 +4405,7 @@
       "price": 83
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Toralei Stripe"
       ],
@@ -4429,7 +4429,7 @@
       "price": 114
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -4453,7 +4453,7 @@
       "price": 107
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Venus McFlytrap"
       ],
@@ -4477,7 +4477,7 @@
       "price": 139
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Cleo de Nile"
       ],
@@ -4503,7 +4503,7 @@
       "price": 59
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Draculaura"
       ],
@@ -4529,7 +4529,7 @@
       "price": 134
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Howleen Wolf"
       ],
@@ -4555,7 +4555,7 @@
       "price": 62
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Cleo de Nile"
       ],
@@ -4579,7 +4579,7 @@
       "price": 82
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein"
       ],
@@ -4603,7 +4603,7 @@
       "price": 113
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Lagoona Blue"
       ],
@@ -4627,7 +4627,7 @@
       "price": 74
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -4653,7 +4653,7 @@
       "price": 109
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Gigi Grant"
       ],
@@ -4679,7 +4679,7 @@
       "price": 139
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Toralei Stripe"
       ],
@@ -4705,7 +4705,7 @@
       "price": 145
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein"
       ],
@@ -4737,7 +4737,7 @@
       "price": 72
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein"
       ],
@@ -4763,7 +4763,7 @@
       "price": 67
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -4789,7 +4789,7 @@
       "price": 117
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Operetta"
       ],
@@ -4815,7 +4815,7 @@
       "price": 61
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Scarah Screams"
       ],
@@ -4841,7 +4841,7 @@
       "price": 131
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -4868,7 +4868,7 @@
       "price": 526
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Draculaura"
       ],
@@ -4895,7 +4895,7 @@
       "price": 296
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Jackson Jekyll"
       ],
@@ -4922,7 +4922,7 @@
       "price": 288
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Avea Trotter"
       ],
@@ -4948,7 +4948,7 @@
       "price": 76
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Bonita Femur"
       ],
@@ -4976,7 +4976,7 @@
       "price": 131
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Sirena Von Boo"
       ],
@@ -5000,7 +5000,7 @@
       "price": 106
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -5024,7 +5024,7 @@
       "price": 134
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Cleo de Nile"
       ],
@@ -5048,7 +5048,7 @@
       "price": 85
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Draculaura"
       ],
@@ -5072,7 +5072,7 @@
       "price": 96
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Jinafire Long"
       ],
@@ -5096,7 +5096,7 @@
       "price": 62
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Neighthan Rot"
       ],
@@ -5120,7 +5120,7 @@
       "price": 143
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Operetta"
       ],
@@ -5147,7 +5147,7 @@
       "price": 208
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Abbey Bominable"
       ],
@@ -5171,7 +5171,7 @@
       "price": 71
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein"
       ],
@@ -5195,7 +5195,7 @@
       "price": 52
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Howleen Wolf"
       ],
@@ -5219,7 +5219,7 @@
       "price": 78
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -5247,7 +5247,7 @@
       "price": 92
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -5275,7 +5275,7 @@
       "price": 93
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Toralei Stripe"
       ],
@@ -5303,7 +5303,7 @@
       "price": 112
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Toralei Stripe"
       ],
@@ -5327,7 +5327,7 @@
       "price": 83
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Deuce Gorgon"
       ],
@@ -5351,7 +5351,7 @@
       "price": 52
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Robecca Steam"
       ],
@@ -5383,7 +5383,7 @@
       "price": 78
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Catrine DeMew"
       ],
@@ -5409,7 +5409,7 @@
       "price": 71
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Cleo de Nile"
       ],
@@ -5436,7 +5436,7 @@
       "price": 189
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Jane Boolittle"
       ],
@@ -5462,7 +5462,7 @@
       "price": 79
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Jinafire Long"
       ],
@@ -5489,7 +5489,7 @@
       "price": 236
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Venus McFlytrap"
       ],
@@ -5516,7 +5516,7 @@
       "price": 265
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -5542,7 +5542,7 @@
       "price": 147
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Draculaura"
       ],
@@ -5568,7 +5568,7 @@
       "price": 142
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -5592,7 +5592,7 @@
       "price": 130
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -5618,7 +5618,7 @@
       "price": 92
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Kiyomi Haunterly"
       ],
@@ -5644,7 +5644,7 @@
       "price": 79
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Porter Paintergeist Geiss"
       ],
@@ -5670,7 +5670,7 @@
       "price": 71
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "River Styxx"
       ],
@@ -5696,7 +5696,7 @@
       "price": 73
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Vandala Doubloons"
       ],
@@ -5722,7 +5722,7 @@
       "price": 80
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Cleo de Nile"
       ],
@@ -5751,7 +5751,7 @@
       "price": 386
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Venus McFlytrap"
       ],
@@ -5780,7 +5780,7 @@
       "price": 377
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Wydowna Spider"
       ],
@@ -5809,7 +5809,7 @@
       "price": 366
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Casta Fierce"
       ],
@@ -5835,7 +5835,7 @@
       "price": 430
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Catrine DeMew",
         "Rochelle Goyle"
@@ -5863,7 +5863,7 @@
       "price": 348
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Iris Clops",
         "Manny Taur"
@@ -5900,7 +5900,7 @@
       "price": 1000
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Deuce Gorgon",
         "Gillington Gil Webber"
@@ -5930,7 +5930,7 @@
       "price": 340
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein",
         "Jackson Jekyll"
@@ -5961,7 +5961,7 @@
       "price": 360
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Draculaura"
       ],
@@ -5987,7 +5987,7 @@
       "price": 121
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Lagoona Blue"
       ],
@@ -6013,7 +6013,7 @@
       "price": 74
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Lorna McNessie"
       ],
@@ -6039,7 +6039,7 @@
       "price": 130
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Marisol Coxi"
       ],
@@ -6065,7 +6065,7 @@
       "price": 84
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Catty Noir"
       ],
@@ -6091,7 +6091,7 @@
       "price": 90
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Gigi Grant"
       ],
@@ -6117,7 +6117,7 @@
       "price": 121
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Invisi Billy"
       ],
@@ -6141,7 +6141,7 @@
       "price": 120
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -6167,7 +6167,7 @@
       "price": 134
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -6191,7 +6191,7 @@
       "price": 96
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Cleo de Nile"
       ],
@@ -6215,7 +6215,7 @@
       "price": 125
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Draculaura"
       ],
@@ -6239,7 +6239,7 @@
       "price": 140
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Frankie Stein"
       ],
@@ -6265,7 +6265,7 @@
       "price": 54
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Operetta"
       ],
@@ -6289,7 +6289,7 @@
       "price": 106
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Skelita Calaveras"
       ],
@@ -6313,7 +6313,7 @@
       "price": 120
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Abbey Bominable"
       ],
@@ -6340,7 +6340,7 @@
       "price": 270
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -6367,7 +6367,7 @@
       "price": 273
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -6392,7 +6392,7 @@
       "price": 127
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Jinafire Long"
       ],
@@ -6417,7 +6417,7 @@
       "price": 182
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -6442,7 +6442,7 @@
       "price": 104
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Meowlody",
         "Purrsephone"
@@ -6475,7 +6475,7 @@
       "price": 398
     },
     {
-      "year": 2014,
+      "year": "2014",
       "character": [
         "Rochelle Goyle",
         "Venus McFlytrap"
@@ -6504,7 +6504,7 @@
       "price": 359
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -6530,7 +6530,7 @@
       "price": 54
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Draculaura"
       ],
@@ -6556,7 +6556,7 @@
       "price": 51
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Frankie Stein"
       ],
@@ -6582,7 +6582,7 @@
       "price": 57
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Gigi Grant"
       ],
@@ -6610,7 +6610,7 @@
       "price": 52
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Cleo de Nile",
         "Deuce Gorgon"
@@ -6640,7 +6640,7 @@
       "price": 362
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Astranova"
       ],
@@ -6670,7 +6670,7 @@
       "price": 124
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -6696,7 +6696,7 @@
       "price": 116
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Draculaura"
       ],
@@ -6722,7 +6722,7 @@
       "price": 70
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Operetta"
       ],
@@ -6748,7 +6748,7 @@
       "price": 94
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Elle Eedee"
       ],
@@ -6774,7 +6774,7 @@
       "price": 121
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Luna Mothews"
       ],
@@ -6800,7 +6800,7 @@
       "price": 57
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Mouscedes King"
       ],
@@ -6828,7 +6828,7 @@
       "price": 79
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Batsy Claro"
       ],
@@ -6856,7 +6856,7 @@
       "price": 74
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Isi Dawndancer"
       ],
@@ -6882,7 +6882,7 @@
       "price": 131
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Kjersti Trollson"
       ],
@@ -6908,7 +6908,7 @@
       "price": 80
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Catrine DeMew"
       ],
@@ -6934,7 +6934,7 @@
       "price": 80
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Lagoona Blue"
       ],
@@ -6960,7 +6960,7 @@
       "price": 94
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Venus McFlytrap"
       ],
@@ -6986,7 +6986,7 @@
       "price": 53
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Rochelle Goyle"
       ],
@@ -7018,7 +7018,7 @@
       "price": 149
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -7049,7 +7049,7 @@
       "price": 113
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Frankie Stein"
       ],
@@ -7077,7 +7077,7 @@
       "price": 66
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Gooliope Jellington"
       ],
@@ -7109,7 +7109,7 @@
       "price": 146
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Honey Swamp"
       ],
@@ -7139,7 +7139,7 @@
       "price": 136
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Toralei Stripe"
       ],
@@ -7167,7 +7167,7 @@
       "price": 72
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -7196,7 +7196,7 @@
       "price": 252
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -7222,7 +7222,7 @@
       "price": 136
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Draculaura"
       ],
@@ -7248,7 +7248,7 @@
       "price": 60
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Elissabat"
       ],
@@ -7273,7 +7273,7 @@
       "price": 215
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Frankie Stein"
       ],
@@ -7299,7 +7299,7 @@
       "price": 114
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Catty Noir"
       ],
@@ -7323,7 +7323,7 @@
       "price": 125
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Ghoulia Yelps"
       ],
@@ -7347,7 +7347,7 @@
       "price": 80
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Gigi Grant"
       ],
@@ -7371,7 +7371,7 @@
       "price": 110
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Elissabat"
       ],
@@ -7397,7 +7397,7 @@
       "price": 118
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Heath Burns"
       ],
@@ -7423,7 +7423,7 @@
       "price": 123
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Howleen Wolf"
       ],
@@ -7449,7 +7449,7 @@
       "price": 60
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Scarah Screams"
       ],
@@ -7475,7 +7475,7 @@
       "price": 80
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Elissabat"
       ],
@@ -7506,7 +7506,7 @@
       "price": 115
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Jane Boolittle"
       ],
@@ -7537,7 +7537,7 @@
       "price": 173
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Jinafire Long"
       ],
@@ -7565,7 +7565,7 @@
       "price": 74
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Meowlody"
       ],
@@ -7593,7 +7593,7 @@
       "price": 129
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Spectra Vondergeist"
       ],
@@ -7621,7 +7621,7 @@
       "price": 80
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Honey Swamp"
       ],
@@ -7649,7 +7649,7 @@
       "price": 97
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Robecca Steam"
       ],
@@ -7677,7 +7677,7 @@
       "price": 87
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Peri & Pearl Serpentine"
       ],
@@ -7703,7 +7703,7 @@
       "price": 133
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Kala Mer'ri"
       ],
@@ -7731,7 +7731,7 @@
       "price": 59
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Posea Reef"
       ],
@@ -7759,7 +7759,7 @@
       "price": 86
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -7788,7 +7788,7 @@
       "price": 174
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Draculaura"
       ],
@@ -7815,7 +7815,7 @@
       "price": 164
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Frankie Stein"
       ],
@@ -7841,7 +7841,7 @@
       "price": 118
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Lagoona Blue"
       ],
@@ -7869,7 +7869,7 @@
       "price": 129
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Toralei Stripe"
       ],
@@ -7895,7 +7895,7 @@
       "price": 94
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Rochelle Goyle"
       ],
@@ -7922,7 +7922,7 @@
       "price": 153
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Iris Clops"
       ],
@@ -7949,7 +7949,7 @@
       "price": 187
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Amanita Nightshade"
       ],
@@ -7973,7 +7973,7 @@
       "price": 119
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Frankie Stein"
       ],
@@ -8003,7 +8003,7 @@
       "price": 53
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Rochelle Goyle",
         "Garrott du Roque"
@@ -8036,7 +8036,7 @@
       "price": 367
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Clawd Wolf"
       ],
@@ -8064,7 +8064,7 @@
       "price": 78
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Draculaura"
       ],
@@ -8092,7 +8092,7 @@
       "price": 96
     },
     {
-      "year": 2015,
+      "year": "2015",
       "character": [
         "Skelita Calaveras"
       ],
@@ -8120,7 +8120,7 @@
       "price": 124
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8148,7 +8148,7 @@
       "price": 54
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8176,7 +8176,7 @@
       "price": 55
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Ari Hauntington"
       ],
@@ -8202,7 +8202,7 @@
       "price": 56
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Catrine DeMew"
       ],
@@ -8228,7 +8228,7 @@
       "price": 157
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Cleo de Nile"
       ],
@@ -8254,7 +8254,7 @@
       "price": 58
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Ari Hauntington"
       ],
@@ -8280,7 +8280,7 @@
       "price": 82
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8308,7 +8308,7 @@
       "price": 117
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Silvi Timberwolf"
       ],
@@ -8334,7 +8334,7 @@
       "price": 69
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8362,7 +8362,7 @@
       "price": 62
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -8392,7 +8392,7 @@
       "price": 80
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -8422,7 +8422,7 @@
       "price": 61
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -8448,7 +8448,7 @@
       "price": 58
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8472,7 +8472,7 @@
       "price": 58
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8498,7 +8498,7 @@
       "price": 52
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Lagoona Blue"
       ],
@@ -8523,7 +8523,7 @@
       "price": 59
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Cleo de Nile"
       ],
@@ -8551,7 +8551,7 @@
       "price": 89
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8581,7 +8581,7 @@
       "price": 149
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8611,7 +8611,7 @@
       "price": 52
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Lagoona Blue"
       ],
@@ -8637,7 +8637,7 @@
       "price": 119
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -8663,7 +8663,7 @@
       "price": 59
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Cleo de Nile"
       ],
@@ -8688,7 +8688,7 @@
       "price": 58
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8714,7 +8714,7 @@
       "price": 59
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8740,7 +8740,7 @@
       "price": 57
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Ari Hauntington"
       ],
@@ -8770,7 +8770,7 @@
       "price": 147
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8800,7 +8800,7 @@
       "price": 88
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8828,7 +8828,7 @@
       "price": 100
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8858,7 +8858,7 @@
       "price": 51
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -8884,7 +8884,7 @@
       "price": 54
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8914,7 +8914,7 @@
       "price": 50
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -8940,7 +8940,7 @@
       "price": 59
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Djinni Whisp Grant"
       ],
@@ -8971,7 +8971,7 @@
       "price": 108
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -9007,7 +9007,7 @@
       "price": 831
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9037,7 +9037,7 @@
       "price": 58
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Skelita Calaveras"
       ],
@@ -9070,7 +9070,7 @@
       "price": 1270
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Lagoona Blue"
       ],
@@ -9100,7 +9100,7 @@
       "price": 52
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -9128,7 +9128,7 @@
       "price": 52
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Zomby Gaga"
       ],
@@ -9162,7 +9162,7 @@
       "price": 66
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Cleo de Nile"
       ],
@@ -9188,7 +9188,7 @@
       "price": 56
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Amanita Nightshade",
         "Nefera de Nile"
@@ -9221,7 +9221,7 @@
       "price": 102
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Gooliope Jellington"
       ],
@@ -9249,7 +9249,7 @@
       "price": 102
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Dayna Treasura Jones"
       ],
@@ -9279,7 +9279,7 @@
       "price": 69
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9309,7 +9309,7 @@
       "price": 125
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Lagoona Blue"
       ],
@@ -9339,7 +9339,7 @@
       "price": 69
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Rochelle Goyle"
       ],
@@ -9369,7 +9369,7 @@
       "price": 143
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Catrine DeMew"
       ],
@@ -9397,7 +9397,7 @@
       "price": 64
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -9427,7 +9427,7 @@
       "price": 90
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Gillington Gil Webber"
       ],
@@ -9455,7 +9455,7 @@
       "price": 88
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -9479,7 +9479,7 @@
       "price": 52
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9503,7 +9503,7 @@
       "price": 50
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -9527,7 +9527,7 @@
       "price": 145
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9555,7 +9555,7 @@
       "price": 104
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Skelita Calaveras"
       ],
@@ -9582,7 +9582,7 @@
       "price": 153
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Ari Hauntington"
       ],
@@ -9610,7 +9610,7 @@
       "price": 54
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura",
         "Moanica D'Kay"
@@ -9641,7 +9641,7 @@
       "price": 398
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Abbey Bominable"
       ],
@@ -9665,7 +9665,7 @@
       "price": 106
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -9691,7 +9691,7 @@
       "price": 125
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Cleo de Nile"
       ],
@@ -9717,7 +9717,7 @@
       "price": 115
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Deuce Gorgon"
       ],
@@ -9743,7 +9743,7 @@
       "price": 70
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Lagoona Blue"
       ],
@@ -9770,7 +9770,7 @@
       "price": 72
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Moanica D'Kay"
       ],
@@ -9796,7 +9796,7 @@
       "price": 59
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9826,7 +9826,7 @@
       "price": 118
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9858,7 +9858,7 @@
       "price": 108
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Frankie Stein"
       ],
@@ -9888,7 +9888,7 @@
       "price": 128
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Ari Hauntington"
       ],
@@ -9916,7 +9916,7 @@
       "price": 136
     },
     {
-      "year": 2016,
+      "year": "2016",
       "character": [
         "Draculaura"
       ],
@@ -9942,7 +9942,7 @@
       "price": 135
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Cleo de Nile"
       ],
@@ -9970,7 +9970,7 @@
       "price": 98
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Venus McFlytrap"
       ],
@@ -10000,7 +10000,7 @@
       "price": 51
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Beetrice"
       ],
@@ -10030,7 +10030,7 @@
       "price": 121
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Lumina"
       ],
@@ -10058,7 +10058,7 @@
       "price": 141
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Wingrid"
       ],
@@ -10086,7 +10086,7 @@
       "price": 102
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Cleo de Nile"
       ],
@@ -10114,7 +10114,7 @@
       "price": 95
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Toralei Stripe"
       ],
@@ -10140,7 +10140,7 @@
       "price": 144
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -10166,7 +10166,7 @@
       "price": 117
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -10194,7 +10194,7 @@
       "price": 73
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Cleo de Nile"
       ],
@@ -10224,7 +10224,7 @@
       "price": 103
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Lagoona Blue"
       ],
@@ -10250,7 +10250,7 @@
       "price": 139
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -10276,7 +10276,7 @@
       "price": 52
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Cleo de Nile"
       ],
@@ -10302,7 +10302,7 @@
       "price": 70
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Lagoona Blue"
       ],
@@ -10328,7 +10328,7 @@
       "price": 66
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Draculaura"
       ],
@@ -10382,7 +10382,7 @@
       "price": 63
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Frankie Stein"
       ],
@@ -10430,7 +10430,7 @@
       "price": 136
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Abbey Bominable"
       ],
@@ -10454,7 +10454,7 @@
       "price": 116
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Venus McFlytrap"
       ],
@@ -10485,7 +10485,7 @@
       "price": 172
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Cleo de Nile", "Ghoulia Yelps"
       ],
@@ -10522,7 +10522,7 @@
       "price": 348
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Draculaura",
         "Frankie Stein"
@@ -10551,7 +10551,7 @@
       "price": 328
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Clawdeen Wolf", "Clawd Wolf"
       ],
@@ -10578,7 +10578,7 @@
       "price": 348
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Clawdeen Wolf",
         "Weredith Wolf",
@@ -10613,7 +10613,7 @@
       "price": 246
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Cleo de Nile",
         "Lux de Nile",
@@ -10653,7 +10653,7 @@
       "price": 385
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Ebbie Blue"
       ],
@@ -10683,7 +10683,7 @@
       "price": 61
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Fangelica"
       ],
@@ -10711,7 +10711,7 @@
       "price": 110
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Lagoona Blue",
         "Kelpie Blue"
@@ -10746,7 +10746,7 @@
       "price": 202
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Pawla Wolf"
       ],
@@ -10778,7 +10778,7 @@
       "price": 114
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Pharrah de Nile"
       ],
@@ -10811,7 +10811,7 @@
       "price": 104
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Sandy de Nile"
       ],
@@ -10840,7 +10840,7 @@
       "price": 101
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Abbey Bominable"
       ],
@@ -10870,7 +10870,7 @@
       "price": 123
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Rochelle Goyle"
       ],
@@ -10896,7 +10896,7 @@
       "price": 50
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Venus McFlytrap"
       ],
@@ -10918,7 +10918,7 @@
       "price": 59
     },
     {
-      "year": 2017,
+      "year": "2017",
       "character": [
         "Draculaura",
         "Twyla Boogeyman"
@@ -10948,7 +10948,7 @@
       "price": 374
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Cleo de Nile"
       ],
@@ -10976,7 +10976,7 @@
       "price": 128
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Draculaura"
       ],
@@ -11004,7 +11004,7 @@
       "price": 65
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Moanica D'Kay"
       ],
@@ -11032,7 +11032,7 @@
       "price": 85
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Cleo de Nile"
       ],
@@ -11056,7 +11056,7 @@
       "price": 50
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Draculaura"
       ],
@@ -11080,7 +11080,7 @@
       "price": 50
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Frankie Stein"
       ],
@@ -11104,7 +11104,7 @@
       "price": 50
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Lagoona Blue"
       ],
@@ -11127,7 +11127,7 @@
       "price": 50
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Ari Hauntington"
       ],
@@ -11151,7 +11151,7 @@
       "price": 114
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -11177,7 +11177,7 @@
       "price": 95
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Lagoona Blue"
       ],
@@ -11203,7 +11203,7 @@
       "price": 96
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Draculaura"
       ],
@@ -11229,7 +11229,7 @@
       "price": 57
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Twyla Boogeyman"
       ],
@@ -11255,7 +11255,7 @@
       "price": 50
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Venus McFlytrap"
       ],
@@ -11281,7 +11281,7 @@
       "price": 51
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Alivia Stein"
       ],
@@ -11309,7 +11309,7 @@
       "price": 81
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Draculaura",
         "Fangelica"
@@ -11342,7 +11342,7 @@
       "price": 342
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Frankie Stein",
         "Alivia Stein"
@@ -11369,7 +11369,7 @@
       "price": 255
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Howleen Wolf"
       ],
@@ -11397,7 +11397,7 @@
       "price": 97
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Ari Hauntington"
       ],
@@ -11419,7 +11419,7 @@
       "price": 133
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -11441,7 +11441,7 @@
       "price": 62
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Draculaura"
       ],
@@ -11463,7 +11463,7 @@
       "price": 135
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Frankie Stein"
       ],
@@ -11485,7 +11485,7 @@
       "price": 101
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Lagoona Blue"
       ],
@@ -11506,7 +11506,7 @@
       "price": 50
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Draculaura"
       ],
@@ -11538,7 +11538,7 @@
       "price": 144
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Lagoona Blue"
       ],
@@ -11572,7 +11572,7 @@
       "price": 85
     },
     {
-      "year": 2018,
+      "year": "2018",
       "character": [
         "Clawdeen Wolf"
       ],
@@ -11602,7 +11602,7 @@
       "price": 92
     },
     {
-      "year": 2020,
+      "year": "2020",
       "character": [
         "Pennywise"
       ],
@@ -11646,7 +11646,7 @@
       "price": 587
     },
     {
-      "year": 2020,
+      "year": "2020",
       "character": [
         "Grady Twins"
       ],

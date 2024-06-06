@@ -8,3 +8,6 @@ export const getDollsById= (id)=> {
 export const getDollsByParams= (params)=> {
     return axios.get(`${url}${params}`)
 }
+export const getAvailable = () => {
+    return axios.get('http://localhost:3000/dolls/')
+}
