@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
-    activeCategory: "",
+    activeCategory: "All",
     activeCharacter: '',
     activeSeries: '',
     activeYear: '',
@@ -64,6 +64,7 @@ const filterSlice = createSlice({
             state.activeGender = '';
             state.activeSeries = '';
             state.activeYear = '';
+            state.activeCategory = 'All'
         }
     },
 })

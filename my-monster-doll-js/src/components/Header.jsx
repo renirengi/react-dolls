@@ -1,30 +1,36 @@
 import React from 'react'
 import logoPng from '../assets/img/doll-logo.png'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Search from './Search'
-import {useSelector} from 'react-redux'
+import {useSelector, useDispatch} from 'react-redux'
+import { resetAdditionalFilters } from '../redux/slices/filterSlice'
 
 
 export default function Header() {
+  const navigate = useNavigate();
+  const dispatch = useDispatch()
    let {pathname} = useLocation()
 
   const {items, totalPrice} =useSelector(state => state.cart)
   const totalCount = items.reduce ((sum, item)=>sum+item.count, 0)
  
-  
+  const onHome=()=>{
+    navigate('/')
+    dispatch(resetAdditionalFilters())
+  }
   return (
     <>
           <div className="header">
         <div className="container">
-          <Link to="/">
-          <div className="header__logo">
+          
+          <div onClick={()=>onHome()} className="header__logo">
             <img width="70" src={logoPng} alt="Doll logo" />
             <div>
               <h1>Monster Dolls</h1>
               <p>the best monsters in the Universe</p>
             </div>
           </div>
-          </Link>
+          
           <Search></Search>
           <div className="header__cart">
           {pathname !=='/cart' && 

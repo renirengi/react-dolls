@@ -150,7 +150,7 @@ const onChangeSelect= React.useCallback((key, value)=>{
   React.useEffect (()=>{
     getDolls();
     window.scrollTo(0,0)
-  },[activeCategory, currentPage, searchValue, sort, activeCharacter, activeCharacter, activeSeries, activeYear, activeGender, activeExclusive])
+  },[activeCategory, currentPage, searchValue, sort, activeCharacter, activeSeries, activeYear, activeGender, activeExclusive,])
 
   React.useEffect(()=> {
     
@@ -180,6 +180,7 @@ const onChangeSelect= React.useCallback((key, value)=>{
       );
       
     }
+  
   }, [dispatch]);
   
   const dataDolls = items.map((obj)=> 

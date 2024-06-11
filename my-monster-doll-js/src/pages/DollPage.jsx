@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { getDollsById } from '../services/dollsService';
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import { setCategory } from '../redux/slices/filterSlice';
+import { setCategory, setCharacter, setExclusive, setGender, setSeries, setYear } from '../redux/slices/filterSlice';
 import Chips from '../components/Chips';
 
 
@@ -28,11 +28,33 @@ export default function DollPage() {
   loadData();
   }, [id]);
 
-  const onChangeChips=React.useCallback((chips)=>{
+  const onChangeChips=React.useCallback((str, chips)=>{
     navigate('/', {key:chips})
-    console.log('ok')
-    dispatch(setCategory(chips))
-},[dispatch])
+    if (str==='character') {
+      console.log(chips)
+      dispatch(setCharacter(chips))
+    }
+    else if (str==='type') {
+      console.log(chips)
+      dispatch(setCategory(chips))
+    }
+    else if (str==='year') {
+      console.log(chips)
+      dispatch(setYear(chips))
+    }
+    else if (str==='series') {
+      console.log(chips)
+      dispatch(setSeries(chips))
+    }
+    else if (str==='gender') {
+      console.log(chips)
+      dispatch(setGender(chips))
+    }
+    else if (str==='exclusive') {
+      console.log(chips)
+      dispatch(setExclusive(chips))
+    }
+},[dispatch, navigate])
   if(!doll) {
     return "Loading..."
   }
@@ -58,7 +80,7 @@ export default function DollPage() {
         <div className='doll-page_body_content_text-container'>
           <p><span className="note">Item number: </span>{doll.modelNumber}</p>
           <p>{doll.description}</p>
-          <Chips doll = {doll} onClickChips={(chips)=>onChangeChips(chips)}></Chips>
+          <Chips doll = {doll} onClickChips={(str,chips)=>onChangeChips(str,chips)}></Chips>
         </div>
         <div className='doll-page_body_content_slider'>I am a dolls slider</div>
       </div>
