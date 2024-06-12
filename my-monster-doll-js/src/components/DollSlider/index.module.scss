@@ -1,0 +1,19 @@
+.slider {
+    :global{
+    .carousel {
+       
+    }}
+}
+
+.container{
+            width: 286px;
+           height: 333px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+         img{
+            margin: 25px;
+            max-width: 236px;
+            max-height: 273px;
+         }
+        }
