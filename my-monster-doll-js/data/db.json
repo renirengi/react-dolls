@@ -18,7 +18,8 @@
       "id": 1,
       "type": "Doll",
       "reissue": false,
-      "price": 107
+      "price": 107,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -39,7 +40,8 @@
       "id": 2,
       "type": "Doll",
       "reissue": false,
-      "price": 100
+      "price": 100,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -60,7 +62,8 @@
       "id": 3,
       "type": "Doll",
       "reissue": false,
-      "price": 112
+      "price": 112,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -81,7 +84,8 @@
       "id": 4,
       "type": "Doll",
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -102,7 +106,8 @@
       "id": 5,
       "type": "Doll",
       "reissue": false,
-      "price": 115
+      "price": 115,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -123,7 +128,8 @@
       "id": 6,
       "type": "Doll",
       "reissue": false,
-      "price": 60
+      "price": 60,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -144,7 +150,8 @@
       "id": 7,
       "type": "Doll",
       "reissue": false,
-      "price": 111
+      "price": 111,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -165,7 +172,8 @@
       "id": 8,
       "type": "Doll",
       "reissue": false,
-      "price": 131
+      "price": 131,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -188,7 +196,8 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "price": 1000
+      "price": 1000,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -209,7 +218,8 @@
       "id": 10,
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 108,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -232,7 +242,8 @@
       "id": 11,
       "type": "Multipack",
       "reissue": false,
-      "price": 368
+      "price": 368,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -253,7 +264,8 @@
       "id": 12,
       "type": "Doll",
       "reissue": false,
-      "price": 142
+      "price": 142,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -274,7 +286,8 @@
       "id": 13,
       "type": "Doll",
       "reissue": false,
-      "price": 128
+      "price": 128,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -295,7 +308,8 @@
       "id": 14,
       "type": "Doll",
       "reissue": false,
-      "price": 78
+      "price": 278,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -316,7 +330,8 @@
       "id": 15,
       "type": "Doll",
       "reissue": false,
-      "price": 87
+      "price": 287,
+      "rating": 4
     },
     {
       "year": "2010",
@@ -337,7 +352,8 @@
       "id": 16,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -358,7 +374,8 @@
       "id": 17,
       "type": "Doll",
       "reissue": false,
-      "price": 70
+      "price": 70,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -379,7 +396,8 @@
       "id": 18,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -400,7 +418,8 @@
       "description": "Lagoona is on her way to class, ready to learn, and looks all scientific in her white lab coat. Under the coat she has a teal dress with black straps and a pattern of white bubbles and black anchors. She also has a shirt and pants as a backup outfit. The top features a pattern of pink, white, and teal whorls. The pants are teal with a black waistband, pockets, and cuffs. Her accessories are a pink necklace, pink bracelet, and yellow dangle earrings with black anchors. The shoes are black & teal with yellow straps that wind up her legs. Also included with the doll is Lagoona’s Mad Science book, a blue pen, a three-eyed frog, a jar, an egg, stickers, a pink coffin-shaped locker with a skullette lock, a Mad Science survival guide, and a brush.",
       "id": 19,
       "reissue": false,
-      "price": 91
+      "price": 91,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -421,7 +440,8 @@
       "id": 20,
       "reissue": true,
       "type": "Doll",
-      "price": 54
+      "price": 54,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -442,7 +462,8 @@
       "id": 21,
       "type": "Doll",
       "reissue": false,
-      "price": 138
+      "price": 138,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -463,7 +484,8 @@
       "id": 22,
       "type": "Doll",
       "reissue": false,
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -484,7 +506,8 @@
       "id": 23,
       "type": "Doll",
       "reissue": false,
-      "price": 119
+      "price": 119,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -505,7 +528,8 @@
       "id": 24,
       "type": "Doll",
       "reissue": false,
-      "price": 91
+      "price": 91,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -526,7 +550,8 @@
       "id": 25,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -547,7 +572,8 @@
       "id": 26,
       "type": "Doll",
       "reissue": false,
-      "price": 119
+      "price": 119,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -573,7 +599,8 @@
       "id": 27,
       "type": "Doll",
       "reissue": false,
-      "price": 137
+      "price": 137,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -600,7 +627,8 @@
       "type": "Doll with Playset",
       "id": 28,
       "reissue": false,
-      "price": 140
+      "price": 140,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -626,7 +654,8 @@
       "id": 29,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -652,7 +681,8 @@
       "id": 30,
       "type": "Doll",
       "reissue": false,
-      "price": 87
+      "price": 87,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -684,7 +714,8 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "price": 1000
+      "price": 1000,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -711,7 +742,8 @@
       "type": "Doll with Playset",
       "id": 32,
       "reissue": false,
-      "price": 78
+      "price": 78,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -732,7 +764,8 @@
       "id": 33,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -758,7 +791,8 @@
       "id": 34,
       "type": "Doll",
       "reissue": false,
-      "price": 116
+      "price": 116,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -779,7 +813,8 @@
       "id": 35,
       "type": "Doll",
       "reissue": false,
-      "price": 60
+      "price": 60,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -799,11 +834,12 @@
         "draculaura-clawd-2-pack-acc-igxhcn0e.jpg",
         "draculaura-clawd-2-pack-1njquqks.jpg"
       ],
-      "description": "Draculaura looks fabulous in her multi-patterned dress. It has white with pink hearts on top, a pink bow, puffy white sleeves with pink cuffs, and black in front with yellow buttons and pink & yellow crisscrosses. The rest of the dress is pink with black mesh frills along the hems of the double-layered skirt.  Under the dress she wears yellow tights with pink polka dots. Her pink & black pumps have yellow soles and stacked pink buttons for heels. Draculaura accessorizes with yellow earrings that have dangling red & black bats. She also has an open parasol with a pink bow on top, a pink center canopy, and a black spiderweb outer canopy. Her purse is black, coffin-shaped, and has a pink heart on the side. Clawd is wearing a white button-down shirt with gold buttons and gold crossbones under a gold vest with a white collar. His black jeans lead into a pair of scuffed gold work boots with black laces and soles. Accessories for the outfit include a teal cap, a teal scarf with black dots, a teal belt with gold buckle, a gold earring, and a gold watch. He also has his pet gargoyle bulldog, Rockseena. Included with the dolls is a teal doll stand, a pink doll stand, a pink brush, and the diaries of Draculaura and Clawd. This 2-pack is sometimes referred to as “Forbitten Love” because of a blurb on the box.",
+      "description": "Draculaura looks fabulous in her multi-patterned dress. It has white with pink hearts on top, a pink bow, puffy white sleeves with pink cuffs, and black in front with yellow buttons and pink & yellow crisscrosses. The rest of the dress is pink with black mesh frills along the hems of the double-layered skirt. Draculaura accessorizes with yellow earrings that have dangling red & black bats. She also has an open parasol with a pink bow on top, a pink center canopy, and a black spiderweb outer canopy. Her purse is black, coffin-shaped, and has a pink heart on the side. Clawd is wearing a white button-down shirt with gold buttons and gold crossbones under a gold vest with a white collar. His black jeans lead into a pair of scuffed gold work boots with black laces and soles. Accessories for the outfit include a teal cap, a teal scarf with black dots, a teal belt with gold buckle, a gold earring, and a gold watch. He also has his pet gargoyle bulldog, Rockseena. Included with the dolls is a teal doll stand, a pink doll stand, a pink brush, and the diaries of Draculaura and Clawd. This 2-pack is sometimes referred to as “Forbitten Love” because of a blurb on the box.",
       "id": 36,
       "type": "Multipack",
       "reissue": false,
-      "price": 384
+      "price": 384,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -824,7 +860,8 @@
       "id": 37,
       "type": "Doll",
       "reissue": false,
-      "price": 107
+      "price": 107,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -850,7 +887,8 @@
       "id": 38,
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 108,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -876,7 +914,8 @@
       "id": 39,
       "type": "Doll",
       "reissue": false,
-      "price": 109
+      "price": 109,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -902,7 +941,8 @@
       "id": 40,
       "type": "Doll",
       "reissue": false,
-      "price": 145
+      "price": 145,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -928,7 +968,8 @@
       "id": 41,
       "type": "Doll",
       "reissue": false,
-      "price": 106
+      "price": 106,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -954,7 +995,8 @@
       "id": 42,
       "type": "Doll",
       "reissue": false,
-      "price": 149
+      "price": 149,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -980,7 +1022,8 @@
       "id": 43,
       "type": "Doll",
       "reissue": false,
-      "price": 61
+      "price": 61,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -1001,7 +1044,8 @@
       "id": 44,
       "type": "Doll",
       "reissue": false,
-      "price": 137
+      "price": 137,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -1027,7 +1071,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 540
+      "price": 540,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -1048,7 +1093,8 @@
       "id": 46,
       "type": "Doll",
       "reissue": false,
-      "price": 106
+      "price": 106,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -1074,7 +1120,8 @@
       "id": 47,
       "type": "Doll",
       "reissue": false,
-      "price": 91
+      "price": 91,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -1095,7 +1142,8 @@
       "id": 48,
       "type": "Doll",
       "reissue": false,
-      "price": 70
+      "price": 70,
+      "rating": 4
     },
     {
       "year": "2011",
@@ -1116,7 +1164,8 @@
       "id": 49,
       "type": "Doll",
       "reissue": false,
-      "price": 148
+      "price": 148,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1137,7 +1186,8 @@
       "id": 50,
       "reissue": true,
       "type": "Doll",
-      "price": 83
+      "price": 83,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1158,7 +1208,8 @@
       "id": 51,
       "reissue": true,
       "type": "Doll",
-      "price": 128
+      "price": 128,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1179,7 +1230,8 @@
       "id": 52,
       "reissue": true,
       "type": "Doll",
-      "price": 111
+      "price": 111,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1200,7 +1252,8 @@
       "id": 53,
       "type": "Doll",
       "reissue": false,
-      "price": 140
+      "price": 140,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1221,7 +1274,8 @@
       "id": 54,
       "type": "Doll",
       "reissue": false,
-      "price": 72
+      "price": 72,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1242,7 +1296,8 @@
       "id": 55,
       "type": "Doll",
       "reissue": false,
-      "price": 89
+      "price": 89,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1263,7 +1318,8 @@
       "id": 56,
       "type": "Doll",
       "reissue": false,
-      "price": 84
+      "price": 84,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1284,7 +1340,8 @@
       "id": 57,
       "type": "Doll",
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1305,7 +1362,8 @@
       "id": 58,
       "type": "Doll",
       "reissue": false,
-      "price": 91
+      "price": 91,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1326,7 +1384,8 @@
       "id": 59,
       "type": "Doll",
       "reissue": false,
-      "price": 67
+      "price": 67,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1352,7 +1411,8 @@
       "id": 60,
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 108,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1373,7 +1433,8 @@
       "id": 61,
       "type": "Doll",
       "reissue": false,
-      "price": 121
+      "price": 121,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1399,7 +1460,8 @@
       "id": 62,
       "type": "Doll",
       "reissue": false,
-      "price": 66
+      "price": 66,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1420,7 +1482,8 @@
       "id": 63,
       "type": "Doll",
       "reissue": false,
-      "price": 141
+      "price": 141,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1441,7 +1504,8 @@
       "id": 64,
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 94,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1462,7 +1526,8 @@
       "id": 65,
       "type": "Doll",
       "reissue": false,
-      "price": 62
+      "price": 62,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1484,7 +1549,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 307
+      "price": 307,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1510,7 +1576,8 @@
       "id": 67,
       "type": "Doll",
       "reissue": false,
-      "price": 144
+      "price": 144,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1536,7 +1603,8 @@
       "id": 68,
       "type": "Doll",
       "reissue": false,
-      "price": 90
+      "price": 90,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1562,7 +1630,8 @@
       "id": 69,
       "type": "Doll",
       "reissue": false,
-      "price": 71
+      "price": 71,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1588,7 +1657,8 @@
       "id": 70,
       "type": "Doll",
       "reissue": false,
-      "price": 92
+      "price": 92,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1616,7 +1686,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 434
+      "price": 434,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1644,7 +1715,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 326
+      "price": 326,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1670,7 +1742,8 @@
       "exclusive": "Kohls",
       "type": "Doll",
       "reissue": false,
-      "price": 188
+      "price": 188,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1696,7 +1769,8 @@
       "exclusive": "Kohls",
       "type": "Doll",
       "reissue": false,
-      "price": 196
+      "price": 196,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1721,7 +1795,8 @@
       "id": 75,
       "reissue": true,
       "type": "Doll",
-      "price": 143
+      "price": 143,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1747,7 +1822,8 @@
       "id": 76,
       "type": "Doll",
       "reissue": false,
-      "price": 85
+      "price": 85,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1773,7 +1849,8 @@
       "id": 77,
       "type": "Doll",
       "reissue": false,
-      "price": 53
+      "price": 53,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1799,7 +1876,8 @@
       "id": 78,
       "type": "Doll",
       "reissue": false,
-      "price": 79
+      "price": 79,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1825,7 +1903,8 @@
       "id": 79,
       "type": "Doll",
       "reissue": false,
-      "price": 82
+      "price": 82,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1853,7 +1932,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 196
+      "price": 196,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1881,7 +1961,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 106
+      "price": 106,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1906,8 +1987,8 @@
       "id": 82,
       "type": "Doll",
       "reissue": false,
-      "promo": "https://www.youtube.com/embed/HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16",
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1933,7 +2014,8 @@
       "id": 83,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1958,7 +2040,8 @@
       "id": 84,
       "type": "Doll",
       "reissue": false,
-      "price": 100
+      "price": 100,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -1983,7 +2066,8 @@
       "id": 85,
       "type": "Doll",
       "reissue": false,
-      "price": 75
+      "price": 75,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2009,7 +2093,8 @@
       "id": 86,
       "type": "Doll",
       "reissue": false,
-      "price": 148
+      "price": 148,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2034,7 +2119,8 @@
       "id": 87,
       "type": "Doll",
       "reissue": false,
-      "price": 123
+      "price": 123,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2060,7 +2146,8 @@
       "id": 88,
       "type": "Doll",
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2086,7 +2173,8 @@
       "id": 89,
       "type": "Doll",
       "reissue": false,
-      "price": 103
+      "price": 103,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2112,7 +2200,8 @@
       "id": 90,
       "type": "Doll",
       "reissue": false,
-      "price": 73
+      "price": 73,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2141,7 +2230,8 @@
       "type": "Multipack",
       "exclusive": "Target",
       "reissue": false,
-      "price": 325
+      "price": 325,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2167,7 +2257,8 @@
       "id": 92,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2193,7 +2284,8 @@
       "id": 93,
       "type": "Doll",
       "reissue": false,
-      "price": 136
+      "price": 136,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2219,7 +2311,8 @@
       "id": 94,
       "type": "Doll",
       "reissue": false,
-      "price": 97
+      "price": 97,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2245,7 +2338,8 @@
       "id": 95,
       "type": "Doll",
       "reissue": false,
-      "price": 130
+      "price": 130,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2271,7 +2365,8 @@
       "id": 96,
       "type": "Doll",
       "reissue": false,
-      "price": 112
+      "price": 112,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2297,7 +2392,8 @@
       "id": 97,
       "type": "Doll",
       "reissue": false,
-      "price": 86
+      "price": 86,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2322,7 +2418,8 @@
       "id": 98,
       "type": "Doll",
       "reissue": false,
-      "price": 89
+      "price": 89,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2348,7 +2445,8 @@
       "id": 99,
       "type": "Doll",
       "reissue": false,
-      "price": 82
+      "price": 82,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2373,7 +2471,8 @@
       "id": 100,
       "type": "Doll",
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2401,7 +2500,8 @@
       "type": "Multipack",
       "exclusive": "KMart",
       "reissue": false,
-      "price": 392
+      "price": 392,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2425,7 +2525,8 @@
       "id": 102,
       "type": "Doll",
       "reissue": false,
-      "price": 84
+      "price": 84,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2450,7 +2551,8 @@
       "id": 103,
       "type": "Doll",
       "reissue": false,
-      "price": 67
+      "price": 67,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2474,7 +2576,8 @@
       "id": 104,
       "type": "Doll",
       "reissue": false,
-      "price": 127
+      "price": 127,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2498,7 +2601,8 @@
       "id": 105,
       "type": "Doll",
       "reissue": false,
-      "price": 76
+      "price": 76,
+      "rating": 4
     },
     {
       "year": "2012",
@@ -2522,7 +2626,8 @@
       "id": 106,
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 94,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2549,7 +2654,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2575,7 +2681,8 @@
       "id": 108,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2602,7 +2709,8 @@
       "id": 109,
       "type": "Doll",
       "reissue": false,
-      "price": 64
+      "price": 64,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2628,7 +2736,8 @@
       "id": 110,
       "type": "Doll",
       "reissue": false,
-      "price": 130
+      "price": 130,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2654,7 +2763,8 @@
       "id": 111,
       "type": "Doll",
       "reissue": false,
-      "price": 102
+      "price": 102,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2680,7 +2790,8 @@
       "id": 112,
       "type": "Doll",
       "reissue": false,
-      "price": 149
+      "price": 149,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2706,7 +2817,8 @@
       "id": 113,
       "type": "Doll",
       "reissue": false,
-      "price": 126
+      "price": 126,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2732,7 +2844,8 @@
       "id": 114,
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 94,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2758,7 +2871,8 @@
       "id": 115,
       "type": "Doll",
       "reissue": false,
-      "price": 77
+      "price": 77,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2784,7 +2898,8 @@
       "id": 116,
       "type": "Doll",
       "reissue": false,
-      "price": 72
+      "price": 72,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2810,7 +2925,8 @@
       "id": 117,
       "type": "Doll",
       "reissue": false,
-      "price": 83
+      "price": 83,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2836,7 +2952,8 @@
       "id": 118,
       "type": "Doll",
       "reissue": false,
-      "price": 127
+      "price": 127,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2865,7 +2982,8 @@
       "id": 119,
       "type": "Multipack",
       "reissue": false,
-      "price": 366
+      "price": 366,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2893,7 +3011,8 @@
       "id": 120,
       "type": "Multipack",
       "reissue": false,
-      "price": 326
+      "price": 326,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2917,7 +3036,8 @@
       "id": 121,
       "type": "Doll",
       "reissue": false,
-      "price": 61
+      "price": 61,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2941,7 +3061,8 @@
       "id": 122,
       "type": "Doll",
       "reissue": false,
-      "price": 82
+      "price": 82,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2965,7 +3086,8 @@
       "id": 123,
       "type": "Doll",
       "reissue": false,
-      "price": 109
+      "price": 109,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -2989,7 +3111,8 @@
       "id": 124,
       "type": "Doll",
       "reissue": false,
-      "price": 57
+      "price": 57,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3013,7 +3136,8 @@
       "id": 125,
       "type": "Doll",
       "reissue": false,
-      "price": 63
+      "price": 63,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3037,7 +3161,8 @@
       "id": 126,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3087,7 +3212,8 @@
       "id": 128,
       "type": "Doll",
       "reissue": false,
-      "price": 98
+      "price": 98,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3113,7 +3239,8 @@
       "id": 129,
       "type": "Doll",
       "reissue": false,
-      "price": 137
+      "price": 137,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3139,7 +3266,8 @@
       "id": 130,
       "type": "Doll",
       "reissue": false,
-      "price": 113
+      "price": 113,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3165,7 +3293,8 @@
       "id": 131,
       "type": "Doll",
       "reissue": false,
-      "price": 124
+      "price": 124,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3189,7 +3318,8 @@
       "id": 132,
       "type": "Doll",
       "reissue": false,
-      "price": 79
+      "price": 79,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3215,7 +3345,8 @@
       "id": 133,
       "type": "Doll",
       "reissue": false,
-      "price": 61
+      "price": 61,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3239,7 +3370,8 @@
       "id": 134,
       "type": "Doll",
       "reissue": false,
-      "price": 125
+      "price": 125,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3263,7 +3395,8 @@
       "id": 135,
       "type": "Doll",
       "reissue": false,
-      "price": 123
+      "price": 123,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3289,7 +3422,8 @@
       "id": 136,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3315,7 +3449,8 @@
       "id": 137,
       "type": "Doll",
       "reissue": false,
-      "price": 60
+      "price": 60,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3341,7 +3476,8 @@
       "id": 138,
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 108,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3369,7 +3505,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 194
+      "price": 194,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3397,7 +3534,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 192
+      "price": 192,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3423,7 +3561,8 @@
       "id": 141,
       "type": "Doll",
       "reissue": false,
-      "price": 78
+      "price": 78,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3449,7 +3588,8 @@
       "id": 142,
       "type": "Doll",
       "reissue": false,
-      "price": 126
+      "price": 126,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3475,7 +3615,8 @@
       "id": 143,
       "type": "Doll",
       "reissue": false,
-      "price": 138
+      "price": 138,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3504,7 +3645,8 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 298
+      "price": 298,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3528,7 +3670,8 @@
       "id": 145,
       "type": "Doll",
       "reissue": false,
-      "price": 116
+      "price": 116,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3554,7 +3697,8 @@
       "id": 146,
       "type": "Doll",
       "reissue": false,
-      "price": 135
+      "price": 135,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3578,7 +3722,8 @@
       "id": 147,
       "type": "Doll",
       "reissue": false,
-      "price": 133
+      "price": 133,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3607,7 +3752,8 @@
       "type": "Multipack",
       "exclusive": "KMart",
       "reissue": false,
-      "price": 396
+      "price": 396,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3631,7 +3777,8 @@
       "id": 149,
       "type": "Doll",
       "reissue": false,
-      "price": 136
+      "price": 136,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3657,7 +3804,8 @@
       "id": 150,
       "type": "Doll",
       "reissue": false,
-      "price": 124
+      "price": 124,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3683,7 +3831,8 @@
       "id": 151,
       "type": "Doll",
       "reissue": false,
-      "price": 118
+      "price": 118,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3709,7 +3858,8 @@
       "id": 152,
       "type": "Doll",
       "reissue": false,
-      "price": 149
+      "price": 149,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3733,7 +3883,8 @@
       "id": 153,
       "reissue": true,
       "type": "Doll",
-      "price": 112
+      "price": 112,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3757,7 +3908,8 @@
       "id": 154,
       "reissue": true,
       "type": "Doll",
-      "price": 81
+      "price": 81,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3781,7 +3933,8 @@
       "id": 155,
       "reissue": true,
       "type": "Doll",
-      "price": 129
+      "price": 129,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3807,7 +3960,8 @@
       "id": 156,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3833,7 +3987,8 @@
       "id": 157,
       "type": "Doll",
       "reissue": false,
-      "price": 113
+      "price": 113,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3862,7 +4017,8 @@
       "id": 158,
       "type": "Doll",
       "reissue": false,
-      "price": 120
+      "price": 120,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3887,7 +4043,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 130
+      "price": 130,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3912,7 +4069,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 169
+      "price": 169,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3937,7 +4095,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 509
+      "price": 509,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3962,7 +4121,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 498
+      "price": 498,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -3993,7 +4153,8 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "price": 1000
+      "price": 1000,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4020,7 +4181,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 565
+      "price": 565,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4045,7 +4207,8 @@
       "exclusive": "Walmart",
       "reissue": true,
       "type": "Doll",
-      "price": 110
+      "price": 110,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4070,7 +4233,8 @@
       "exclusive": "Walmart",
       "reissue": true,
       "type": "Doll",
-      "price": 350
+      "price": 350,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4095,7 +4259,8 @@
       "exclusive": "Walmart",
       "reissue": true,
       "type": "Doll",
-      "price": 322
+      "price": 322,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4122,7 +4287,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4149,7 +4315,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 157
+      "price": 157,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4175,7 +4342,8 @@
       "id": 170,
       "type": "Doll",
       "reissue": false,
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4200,7 +4368,8 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 121
+      "price": 121,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4225,7 +4394,8 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 162
+      "price": 162,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4251,7 +4421,8 @@
       "id": 173,
       "type": "Doll",
       "reissue": false,
-      "price": 66
+      "price": 66,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4276,7 +4447,8 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 126
+      "price": 126,
+      "rating": 4
     },
     {
       "year": "2013",
@@ -4302,7 +4474,8 @@
       "id": 175,
       "type": "Doll",
       "reissue": false,
-      "price": 64
+      "price": 64,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4330,7 +4503,8 @@
       "id": 176,
       "type": "Doll",
       "reissue": false,
-      "price": 95
+      "price": 95,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4354,7 +4528,8 @@
       "id": 177,
       "type": "Doll",
       "reissue": false,
-      "price": 76
+      "price": 76,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4378,7 +4553,8 @@
       "id": 178,
       "type": "Doll",
       "reissue": false,
-      "price": 128
+      "price": 128,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4402,7 +4578,8 @@
       "id": 179,
       "type": "Doll",
       "reissue": false,
-      "price": 83
+      "price": 83,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4426,7 +4603,8 @@
       "id": 180,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4450,7 +4628,8 @@
       "id": 181,
       "type": "Doll",
       "reissue": false,
-      "price": 107
+      "price": 107,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4474,7 +4653,8 @@
       "id": 182,
       "type": "Doll",
       "reissue": false,
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4500,7 +4680,8 @@
       "id": 183,
       "type": "Doll",
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4526,7 +4707,8 @@
       "id": 184,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4552,7 +4734,8 @@
       "id": 185,
       "type": "Doll",
       "reissue": false,
-      "price": 62
+      "price": 62,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4576,7 +4759,8 @@
       "id": 186,
       "reissue": true,
       "type": "Doll",
-      "price": 82
+      "price": 82,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4600,7 +4784,8 @@
       "id": 187,
       "reissue": true,
       "type": "Doll",
-      "price": 113
+      "price": 113,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4624,7 +4809,8 @@
       "id": 188,
       "reissue": true,
       "type": "Doll",
-      "price": 74
+      "price": 74,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4650,7 +4836,8 @@
       "id": 189,
       "type": "Doll",
       "reissue": false,
-      "price": 109
+      "price": 109,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4676,7 +4863,8 @@
       "id": 190,
       "type": "Doll",
       "reissue": false,
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4702,7 +4890,8 @@
       "id": 191,
       "type": "Doll",
       "reissue": false,
-      "price": 145
+      "price": 145,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4734,7 +4923,8 @@
       "type": "Doll with Playset",
       "id": 192,
       "reissue": false,
-      "price": 72
+      "price": 72,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4760,7 +4950,8 @@
       "id": 193,
       "type": "Doll",
       "reissue": false,
-      "price": 67
+      "price": 67,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4786,7 +4977,8 @@
       "id": 194,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4812,7 +5004,8 @@
       "id": 195,
       "type": "Doll",
       "reissue": false,
-      "price": 61
+      "price": 61,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4838,7 +5031,8 @@
       "id": 196,
       "type": "Doll",
       "reissue": false,
-      "price": 131
+      "price": 131,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4865,7 +5059,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 526
+      "price": 526,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4892,7 +5087,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 296
+      "price": 296,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4919,7 +5115,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 288
+      "price": 288,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4945,7 +5142,8 @@
       "id": 200,
       "type": "Doll",
       "reissue": false,
-      "price": 76
+      "price": 76,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4973,7 +5171,8 @@
       "id": 201,
       "type": "Doll",
       "reissue": false,
-      "price": 131
+      "price": 131,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -4997,7 +5196,8 @@
       "id": 202,
       "type": "Doll",
       "reissue": false,
-      "price": 106
+      "price": 106,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5021,7 +5221,8 @@
       "id": 203,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5045,7 +5246,8 @@
       "id": 204,
       "type": "Doll",
       "reissue": false,
-      "price": 85
+      "price": 85,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5069,7 +5271,8 @@
       "id": 205,
       "type": "Doll",
       "reissue": false,
-      "price": 96
+      "price": 96,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5093,7 +5296,8 @@
       "id": 206,
       "type": "Doll",
       "reissue": false,
-      "price": 62
+      "price": 62,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5117,7 +5321,8 @@
       "id": 207,
       "type": "Doll",
       "reissue": false,
-      "price": 143
+      "price": 143,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5144,7 +5349,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 208
+      "price": 208,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5168,7 +5374,8 @@
       "id": 209,
       "type": "Doll",
       "reissue": false,
-      "price": 71
+      "price": 71,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5192,7 +5399,8 @@
       "id": 210,
       "type": "Doll",
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5216,7 +5424,8 @@
       "id": 211,
       "type": "Doll",
       "reissue": false,
-      "price": 78
+      "price": 78,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5244,7 +5453,8 @@
       "id": 212,
       "type": "Doll",
       "reissue": false,
-      "price": 92
+      "price": 92,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5272,7 +5482,8 @@
       "id": 213,
       "type": "Doll",
       "reissue": false,
-      "price": 93
+      "price": 93,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5300,7 +5511,8 @@
       "id": 214,
       "type": "Doll",
       "reissue": false,
-      "price": 112
+      "price": 112,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5324,7 +5536,8 @@
       "id": 215,
       "type": "Doll",
       "reissue": false,
-      "price": 83
+      "price": 83,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5348,7 +5561,8 @@
       "id": 216,
       "type": "Doll",
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5380,7 +5594,8 @@
       "id": 217,
       "type": "Doll",
       "reissue": false,
-      "price": 78
+      "price": 78,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5406,7 +5621,8 @@
       "id": 218,
       "type": "Doll",
       "reissue": false,
-      "price": 71
+      "price": 71,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5433,7 +5649,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 189
+      "price": 189,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5459,7 +5676,8 @@
       "id": 220,
       "type": "Doll",
       "reissue": false,
-      "price": 79
+      "price": 79,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5513,7 +5731,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 265
+      "price": 265,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5539,7 +5758,8 @@
       "id": 223,
       "type": "Doll",
       "reissue": false,
-      "price": 147
+      "price": 147,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5565,7 +5785,8 @@
       "id": 224,
       "type": "Doll",
       "reissue": false,
-      "price": 142
+      "price": 142,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5589,7 +5810,8 @@
       "id": 225,
       "type": "Doll",
       "reissue": false,
-      "price": 130
+      "price": 130,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5615,7 +5837,8 @@
       "id": 226,
       "type": "Doll",
       "reissue": false,
-      "price": 92
+      "price": 92,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5641,7 +5864,8 @@
       "id": 227,
       "type": "Doll",
       "reissue": false,
-      "price": 79
+      "price": 79,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5667,7 +5891,8 @@
       "id": 228,
       "type": "Doll",
       "reissue": false,
-      "price": 71
+      "price": 71,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5693,7 +5918,8 @@
       "id": 229,
       "type": "Doll",
       "reissue": false,
-      "price": 73
+      "price": 73,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5719,7 +5945,8 @@
       "id": 230,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5748,7 +5975,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 386
+      "price": 386,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5777,7 +6005,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 377
+      "price": 377,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5806,7 +6035,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 366
+      "price": 366,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5832,7 +6062,8 @@
       "id": 234,
       "type": "Doll",
       "reissue": false,
-      "price": 430
+      "price": 430,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5860,7 +6091,8 @@
       "type": "Multipack",
       "exclusive": "KMart",
       "reissue": false,
-      "price": 348
+      "price": 348,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5897,7 +6129,8 @@
       "type": "Multipack",
       "exclusive": "Comic Con",
       "reissue": false,
-      "price": 1000
+      "price": 1000,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5958,7 +6191,8 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 360
+      "price": 360,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -5984,7 +6218,8 @@
       "id": 239,
       "type": "Doll",
       "reissue": false,
-      "price": 121
+      "price": 121,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6010,7 +6245,8 @@
       "id": 240,
       "type": "Doll",
       "reissue": false,
-      "price": 74
+      "price": 74,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6036,7 +6272,8 @@
       "id": 241,
       "type": "Doll",
       "reissue": false,
-      "price": 130
+      "price": 130,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6062,7 +6299,8 @@
       "id": 242,
       "type": "Doll",
       "reissue": false,
-      "price": 84
+      "price": 84,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6088,7 +6326,8 @@
       "id": 243,
       "type": "Doll",
       "reissue": false,
-      "price": 90
+      "price": 90,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6114,7 +6353,8 @@
       "id": 244,
       "type": "Doll",
       "reissue": false,
-      "price": 121
+      "price": 121,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6138,7 +6378,8 @@
       "id": 245,
       "type": "Doll",
       "reissue": false,
-      "price": 120
+      "price": 120,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6164,7 +6405,8 @@
       "id": 246,
       "type": "Doll",
       "reissue": false,
-      "price": 134
+      "price": 134,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6188,7 +6430,8 @@
       "id": 247,
       "reissue": true,
       "type": "Doll",
-      "price": 96
+      "price": 96,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6212,7 +6455,8 @@
       "id": 248,
       "reissue": true,
       "type": "Doll",
-      "price": 125
+      "price": 125,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6236,7 +6480,8 @@
       "id": 249,
       "reissue": true,
       "type": "Doll",
-      "price": 140
+      "price": 140,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6262,7 +6507,8 @@
       "id": 250,
       "reissue": true,
       "type": "Doll",
-      "price": 54
+      "price": 54,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6286,7 +6532,8 @@
       "id": 251,
       "type": "Doll",
       "reissue": false,
-      "price": 106
+      "price": 106,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6310,7 +6557,8 @@
       "id": 252,
       "type": "Doll",
       "reissue": false,
-      "price": 120
+      "price": 120,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6337,7 +6585,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 270
+      "price": 270,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6364,7 +6613,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 273
+      "price": 273,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6389,7 +6639,8 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 127
+      "price": 127,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6414,7 +6665,8 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 182
+      "price": 182,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6439,7 +6691,8 @@
       "exclusive": "Justice",
       "type": "Doll",
       "reissue": false,
-      "price": 104
+      "price": 104,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6472,7 +6725,8 @@
       "id": 258,
       "type": "Multipack",
       "reissue": false,
-      "price": 398
+      "price": 398,
+      "rating": 4
     },
     {
       "year": "2014",
@@ -6501,7 +6755,8 @@
       "id": 259,
       "type": "Multipack",
       "reissue": false,
-      "price": 359
+      "price": 359,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6527,7 +6782,8 @@
       "type": "Budget",
       "id": 260,
       "reissue": false,
-      "price": 54
+      "price": 54,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6553,7 +6809,8 @@
       "type": "Budget",
       "id": 261,
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6579,7 +6836,8 @@
       "type": "Budget",
       "id": 262,
       "reissue": false,
-      "price": 57
+      "price": 57,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6607,7 +6865,8 @@
       "type": "Budget",
       "id": 263,
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6637,7 +6896,8 @@
       "id": 264,
       "type": "Multipack",
       "reissue": false,
-      "price": 362
+      "price": 362,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6667,7 +6927,8 @@
       "type": "Doll with Playset",
       "id": 265,
       "reissue": false,
-      "price": 124
+      "price": 124,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6693,7 +6954,8 @@
       "id": 266,
       "type": "Doll",
       "reissue": false,
-      "price": 116
+      "price": 116,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6745,7 +7007,8 @@
       "id": 268,
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 94,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6771,7 +7034,8 @@
       "id": 269,
       "type": "Doll",
       "reissue": false,
-      "price": 121
+      "price": 121,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6797,7 +7061,8 @@
       "id": 270,
       "type": "Doll",
       "reissue": false,
-      "price": 57
+      "price": 57,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6825,7 +7090,8 @@
       "id": 271,
       "type": "Doll",
       "reissue": false,
-      "price": 79
+      "price": 79,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6853,7 +7119,8 @@
       "id": 272,
       "type": "Doll",
       "reissue": false,
-      "price": 74
+      "price": 74,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6879,7 +7146,8 @@
       "id": 273,
       "type": "Doll",
       "reissue": false,
-      "price": 131
+      "price": 131,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6905,7 +7173,8 @@
       "id": 274,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6931,7 +7200,8 @@
       "id": 275,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6957,7 +7227,8 @@
       "id": 276,
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 94,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -6983,7 +7254,8 @@
       "id": 277,
       "type": "Doll",
       "reissue": false,
-      "price": 53
+      "price": 53,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7015,7 +7287,8 @@
       "type": "Doll with Playset",
       "id": 278,
       "reissue": false,
-      "price": 149
+      "price": 149,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7046,7 +7319,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 113
+      "price": 113,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7074,7 +7348,8 @@
       "id": 280,
       "type": "Doll",
       "reissue": false,
-      "price": 66
+      "price": 66,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7106,7 +7381,8 @@
       "id": 281,
       "type": "Doll",
       "reissue": false,
-      "price": 146
+      "price": 146,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7136,7 +7412,8 @@
       "id": 282,
       "type": "Doll",
       "reissue": false,
-      "price": 136
+      "price": 136,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7164,7 +7441,8 @@
       "id": 283,
       "type": "Doll",
       "reissue": false,
-      "price": 72
+      "price": 72,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7193,7 +7471,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 252
+      "price": 252,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7219,7 +7498,8 @@
       "id": 285,
       "type": "Doll",
       "reissue": false,
-      "price": 136
+      "price": 136,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7245,7 +7525,8 @@
       "id": 286,
       "type": "Doll",
       "reissue": false,
-      "price": 60
+      "price": 60,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7270,7 +7551,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 215
+      "price": 215,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7296,7 +7578,8 @@
       "id": 288,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7320,7 +7603,8 @@
       "id": 289,
       "type": "Doll",
       "reissue": false,
-      "price": 125
+      "price": 125,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7344,7 +7628,8 @@
       "id": 290,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7368,7 +7653,8 @@
       "id": 291,
       "type": "Doll",
       "reissue": false,
-      "price": 110
+      "price": 110,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7394,7 +7680,8 @@
       "id": 292,
       "type": "Doll",
       "reissue": false,
-      "price": 118
+      "price": 118,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7420,7 +7707,8 @@
       "id": 293,
       "type": "Doll",
       "reissue": false,
-      "price": 123
+      "price": 123,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7446,7 +7734,8 @@
       "id": 294,
       "type": "Doll",
       "reissue": false,
-      "price": 60
+      "price": 60,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7472,7 +7761,8 @@
       "id": 295,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7503,7 +7793,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 115
+      "price": 115,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7534,7 +7825,8 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "price": 173
+      "price": 173,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7562,7 +7854,8 @@
       "id": 298,
       "type": "Doll",
       "reissue": false,
-      "price": 74
+      "price": 74,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7590,7 +7883,8 @@
       "id": 299,
       "type": "Doll",
       "reissue": false,
-      "price": 129
+      "price": 129,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7618,7 +7912,8 @@
       "id": 300,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7646,7 +7941,8 @@
       "id": 301,
       "type": "Doll",
       "reissue": false,
-      "price": 97
+      "price": 97,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7674,7 +7970,8 @@
       "id": 302,
       "type": "Doll",
       "reissue": false,
-      "price": 87
+      "price": 87,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7700,7 +7997,8 @@
       "id": 303,
       "type": "Doll",
       "reissue": false,
-      "price": 133
+      "price": 133,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7728,7 +8026,8 @@
       "id": 304,
       "type": "Doll",
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7756,7 +8055,8 @@
       "id": 305,
       "type": "Doll",
       "reissue": false,
-      "price": 86
+      "price": 86,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7785,7 +8085,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 174
+      "price": 174,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7812,7 +8113,8 @@
       "exclusive": "Walmart",
       "reissue": false,
       "type": "Doll",
-      "price": 164
+      "price": 164,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7838,7 +8140,8 @@
       "id": 308,
       "type": "Doll",
       "reissue": false,
-      "price": 118
+      "price": 118,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7866,7 +8169,8 @@
       "id": 309,
       "type": "Doll",
       "reissue": false,
-      "price": 129
+      "price": 129,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7892,7 +8196,8 @@
       "id": 310,
       "type": "Doll",
       "reissue": false,
-      "price": 94
+      "price": 94,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7919,7 +8224,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 153
+      "price": 153,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7946,7 +8252,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 187
+      "price": 187,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -7970,7 +8277,8 @@
       "id": 313,
       "type": "Doll",
       "reissue": false,
-      "price": 119
+      "price": 119,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -8000,7 +8308,8 @@
       "type": "Budget",
       "id": 314,
       "reissue": false,
-      "price": 53
+      "price": 53,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -8033,7 +8342,8 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 367
+      "price": 367,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -8061,7 +8371,8 @@
       "id": 316,
       "type": "Doll",
       "reissue": false,
-      "price": 78
+      "price": 78,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -8089,7 +8400,8 @@
       "id": 317,
       "type": "Doll",
       "reissue": false,
-      "price": 96
+      "price": 96,
+      "rating": 4
     },
     {
       "year": "2015",
@@ -8117,7 +8429,8 @@
       "id": 318,
       "type": "Doll",
       "reissue": false,
-      "price": 124
+      "price": 124,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8145,7 +8458,8 @@
       "type": "Budget",
       "id": 319,
       "reissue": false,
-      "price": 54
+      "price": 54,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8173,7 +8487,8 @@
       "type": "Budget",
       "id": 320,
       "reissue": false,
-      "price": 55
+      "price": 55,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8199,7 +8514,8 @@
       "type": "Budget",
       "id": 321,
       "reissue": false,
-      "price": 56
+      "price": 56,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8225,7 +8541,8 @@
       "type": "Budget",
       "id": 322,
       "reissue": false,
-      "price": 157
+      "price": 157,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8251,7 +8568,8 @@
       "type": "Budget",
       "id": 323,
       "reissue": false,
-      "price": 58
+      "price": 58,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8277,7 +8595,8 @@
       "id": 324,
       "type": "Doll",
       "reissue": false,
-      "price": 82
+      "price": 82,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8305,7 +8624,8 @@
       "id": 325,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8331,7 +8651,8 @@
       "id": 326,
       "type": "Doll",
       "reissue": false,
-      "price": 69
+      "price": 69,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8359,7 +8680,8 @@
       "id": 327,
       "type": "Doll",
       "reissue": false,
-      "price": 62
+      "price": 62,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8389,7 +8711,8 @@
       "id": 328,
       "type": "Doll",
       "reissue": false,
-      "price": 80
+      "price": 80,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8419,7 +8742,8 @@
       "id": 329,
       "type": "Doll",
       "reissue": false,
-      "price": 61
+      "price": 61,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8445,7 +8769,8 @@
       "type": "Budget",
       "id": 330,
       "reissue": false,
-      "price": 58
+      "price": 58,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8469,7 +8794,8 @@
       "type": "Budget",
       "id": 331,
       "reissue": false,
-      "price": 58
+      "price": 58,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8495,7 +8821,8 @@
       "type": "Budget",
       "id": 332,
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8520,7 +8847,8 @@
       "type": "Budget",
       "id": 333,
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8548,7 +8876,8 @@
       "id": 334,
       "type": "Doll",
       "reissue": false,
-      "price": 89
+      "price": 89,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8578,7 +8907,8 @@
       "id": 335,
       "type": "Doll",
       "reissue": false,
-      "price": 149
+      "price": 149,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8608,7 +8938,8 @@
       "id": 336,
       "type": "Doll",
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8634,7 +8965,8 @@
       "id": 337,
       "type": "Doll",
       "reissue": false,
-      "price": 119
+      "price": 119,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8660,7 +8992,8 @@
       "type": "Budget",
       "id": 338,
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8685,7 +9018,8 @@
       "type": "Budget",
       "id": 339,
       "reissue": false,
-      "price": 58
+      "price": 58,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8711,7 +9045,8 @@
       "type": "Budget",
       "id": 340,
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8737,7 +9072,8 @@
       "type": "Budget",
       "id": 341,
       "reissue": false,
-      "price": 57
+      "price": 57,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8767,7 +9103,8 @@
       "id": 342,
       "type": "Doll",
       "reissue": false,
-      "price": 147
+      "price": 147,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8797,7 +9134,8 @@
       "id": 343,
       "type": "Doll",
       "reissue": false,
-      "price": 88
+      "price": 88,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8825,7 +9163,8 @@
       "id": 344,
       "type": "Doll",
       "reissue": false,
-      "price": 100
+      "price": 100,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8855,7 +9194,8 @@
       "type": "Budget",
       "id": 345,
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8881,7 +9221,8 @@
       "type": "Budget",
       "id": 346,
       "reissue": false,
-      "price": 54
+      "price": 54,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8911,7 +9252,8 @@
       "type": "Budget",
       "id": 347,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8937,7 +9279,8 @@
       "type": "Budget",
       "id": 348,
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -8968,7 +9311,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 108,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9004,7 +9348,8 @@
       "exclusive": "Comic Con",
       "reissue": false,
       "type": "Doll",
-      "price": 831
+      "price": 831,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9034,7 +9379,8 @@
       "type": "Budget",
       "id": 351,
       "reissue": false,
-      "price": 58
+      "price": 58,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9067,7 +9413,8 @@
       "exclusive": "Amazon",
       "type": "Doll",
       "reissue": false,
-      "price": 1270
+      "price": 1270,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9097,7 +9444,8 @@
       "type": "Doll with Playset",
       "id": 353,
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9125,7 +9473,8 @@
       "type": "Budget",
       "id": 354,
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9159,7 +9508,8 @@
       "id": 355,
       "type": "Doll",
       "reissue": false,
-      "price": 66
+      "price": 66,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9185,7 +9535,8 @@
       "type": "Budget",
       "id": 356,
       "reissue": false,
-      "price": 56
+      "price": 56,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9218,7 +9569,8 @@
       "id": 357,
       "type": "Doll",
       "reissue": false,
-      "price": 102
+      "price": 102,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9246,7 +9598,8 @@
       "id": 358,
       "type": "Doll",
       "reissue": false,
-      "price": 102
+      "price": 102,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9276,7 +9629,8 @@
       "id": 359,
       "type": "Doll",
       "reissue": false,
-      "price": 69
+      "price": 69,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9306,7 +9660,8 @@
       "id": 360,
       "type": "Doll",
       "reissue": false,
-      "price": 125
+      "price": 125,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9336,7 +9691,8 @@
       "id": 361,
       "type": "Doll",
       "reissue": false,
-      "price": 69
+      "price": 69,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9366,7 +9722,8 @@
       "id": 362,
       "type": "Doll",
       "reissue": false,
-      "price": 143
+      "price": 143,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9424,7 +9781,8 @@
       "id": 364,
       "type": "Doll",
       "reissue": false,
-      "price": 90
+      "price": 90,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9452,7 +9810,8 @@
       "id": 365,
       "type": "Doll",
       "reissue": false,
-      "price": 88
+      "price": 88,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9476,7 +9835,8 @@
       "type": "Budget",
       "id": 366,
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9500,7 +9860,8 @@
       "type": "Budget",
       "id": 367,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9524,7 +9885,8 @@
       "type": "Budget",
       "id": 368,
       "reissue": false,
-      "price": 145
+      "price": 145,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9552,7 +9914,8 @@
       "id": 369,
       "type": "Doll",
       "reissue": false,
-      "price": 104
+      "price": 104,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9579,7 +9942,8 @@
       "exclusive": "Walmart",
       "type": "Doll",
       "reissue": false,
-      "price": 153
+      "price": 153,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9607,7 +9971,8 @@
       "id": 371,
       "type": "Doll",
       "reissue": false,
-      "price": 54
+      "price": 54,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9638,7 +10003,8 @@
       "id": 372,
       "type": "Multipack",
       "reissue": false,
-      "price": 398
+      "price": 398,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9662,7 +10028,8 @@
       "id": 373,
       "type": "Doll",
       "reissue": false,
-      "price": 106
+      "price": 106,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9688,7 +10055,8 @@
       "id": 374,
       "type": "Doll",
       "reissue": false,
-      "price": 125
+      "price": 125,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9714,7 +10082,8 @@
       "id": 375,
       "type": "Doll",
       "reissue": false,
-      "price": 115
+      "price": 115,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9740,7 +10109,8 @@
       "id": 376,
       "type": "Doll",
       "reissue": false,
-      "price": 70
+      "price": 70,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9767,7 +10137,8 @@
       "id": 377,
       "type": "Doll",
       "reissue": false,
-      "price": 72
+      "price": 72,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9793,7 +10164,8 @@
       "id": 378,
       "type": "Doll",
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9823,7 +10195,8 @@
       "type": "Doll with Playset",
       "id": 379,
       "reissue": false,
-      "price": 118
+      "price": 118,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9855,7 +10228,8 @@
       "id": 380,
       "type": "Doll",
       "reissue": false,
-      "price": 108
+      "price": 108,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9885,7 +10259,8 @@
       "id": 381,
       "type": "Doll",
       "reissue": false,
-      "price": 128
+      "price": 128,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9913,7 +10288,8 @@
       "type": "Budget",
       "id": 382,
       "reissue": false,
-      "price": 136
+      "price": 136,
+      "rating": 4
     },
     {
       "year": "2016",
@@ -9939,7 +10315,8 @@
       "type": "Budget",
       "id": 383,
       "reissue": false,
-      "price": 135
+      "price": 135,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -9967,7 +10344,8 @@
       "id": 384,
       "type": "Doll",
       "reissue": false,
-      "price": 98
+      "price": 98,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -9997,7 +10375,8 @@
       "id": 385,
       "type": "Doll",
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10027,7 +10406,8 @@
       "type": "Budget",
       "id": 386,
       "reissue": false,
-      "price": 121
+      "price": 121,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10055,7 +10435,8 @@
       "type": "Budget",
       "id": 387,
       "reissue": false,
-      "price": 141
+      "price": 141,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10083,7 +10464,8 @@
       "type": "Budget",
       "id": 388,
       "reissue": false,
-      "price": 102
+      "price": 102,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10111,7 +10493,8 @@
       "id": 389,
       "type": "Doll",
       "reissue": false,
-      "price": 95
+      "price": 95,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10137,7 +10520,8 @@
       "id": 390,
       "type": "Doll",
       "reissue": false,
-      "price": 144
+      "price": 144,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10163,7 +10547,8 @@
       "id": 391,
       "type": "Doll",
       "reissue": false,
-      "price": 117
+      "price": 117,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10191,7 +10576,8 @@
       "id": 392,
       "type": "Doll",
       "reissue": false,
-      "price": 73
+      "price": 73,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10221,7 +10607,8 @@
       "id": 393,
       "type": "Doll",
       "reissue": false,
-      "price": 103
+      "price": 103,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10247,7 +10634,8 @@
       "id": 394,
       "type": "Doll",
       "reissue": false,
-      "price": 139
+      "price": 139,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10273,7 +10661,8 @@
       "type": "Budget",
       "id": 395,
       "reissue": false,
-      "price": 52
+      "price": 52,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10299,7 +10688,8 @@
       "type": "Budget",
       "id": 396,
       "reissue": false,
-      "price": 70
+      "price": 70,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10325,7 +10715,8 @@
       "type": "Budget",
       "id": 397,
       "reissue": false,
-      "price": 66
+      "price": 66,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10379,7 +10770,8 @@
       "type": "Budget",
       "id": 398,
       "reissue": false,
-      "price": 63
+      "price": 63,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10427,7 +10819,8 @@
       "type": "Budget",
       "id": 399,
       "reissue": false,
-      "price": 136
+      "price": 136,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10451,7 +10844,8 @@
       "id": 400,
       "type": "Doll",
       "reissue": false,
-      "price": 116
+      "price": 116,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10482,7 +10876,8 @@
       "exclusive": "Toys”R”Us",
       "type": "Doll",
       "reissue": false,
-      "price": 172
+      "price": 172,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10519,7 +10914,8 @@
       "type": "Multipack",
       "exclusive": "Mattel Shop",
       "reissue": false,
-      "price": 348
+      "price": 348,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10548,7 +10944,8 @@
       "type": "Multipack",
       "id": 403,
       "reissue": false,
-      "price": 328
+      "price": 328,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10575,7 +10972,8 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 348
+      "price": 348,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10610,7 +11008,8 @@
       "type": "Multipack",
       "id": 405,
       "reissue": false,
-      "price": 246
+      "price": 246,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10650,7 +11049,8 @@
       "type": "Multipack",
       "exclusive": "Target",
       "reissue": false,
-      "price": 385
+      "price": 385,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10680,7 +11080,8 @@
       "id": 407,
       "type": "Doll",
       "reissue": false,
-      "price": 61
+      "price": 61,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10708,7 +11109,8 @@
       "id": 408,
       "type": "Doll",
       "reissue": false,
-      "price": 110
+      "price": 110,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10743,7 +11145,8 @@
       "type": "Multipack",
       "id": 409,
       "reissue": false,
-      "price": 202
+      "price": 202,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10775,7 +11178,8 @@
       "id": 410,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10808,7 +11212,8 @@
       "exclusive": "Target",
       "type": "Doll with Playset",
       "reissue": false,
-      "price": 104
+      "price": 104,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10837,7 +11242,8 @@
       "exclusive": "Target",
       "type": "Doll with Playset",
       "reissue": false,
-      "price": 101
+      "price": 101,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10867,7 +11273,8 @@
       "id": 413,
       "type": "Doll",
       "reissue": false,
-      "price": 123
+      "price": 123,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10893,7 +11300,8 @@
       "id": 414,
       "type": "Doll",
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10915,7 +11323,8 @@
       "id": 415,
       "type": "Doll",
       "reissue": false,
-      "price": 59
+      "price": 59,
+      "rating": 4
     },
     {
       "year": "2017",
@@ -10945,7 +11354,8 @@
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
       "reissue": false,
-      "price": 374
+      "price": 374,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -10973,7 +11383,8 @@
       "id": 417,
       "type": "Doll",
       "reissue": false,
-      "price": 128
+      "price": 128,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11001,7 +11412,8 @@
       "id": 418,
       "type": "Doll",
       "reissue": false,
-      "price": 65
+      "price": 65,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11029,7 +11441,8 @@
       "id": 419,
       "type": "Doll",
       "reissue": false,
-      "price": 85
+      "price": 85,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11053,7 +11466,8 @@
       "type": "Budget",
       "id": 420,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11077,7 +11491,8 @@
       "type": "Budget",
       "id": 421,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11101,7 +11516,8 @@
       "type": "Budget",
       "id": 422,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11124,7 +11540,8 @@
       "type": "Budget",
       "id": 423,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11148,7 +11565,8 @@
       "id": 424,
       "type": "Doll",
       "reissue": false,
-      "price": 114
+      "price": 114,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11174,7 +11592,8 @@
       "id": 425,
       "type": "Doll",
       "reissue": false,
-      "price": 95
+      "price": 95,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11200,7 +11619,8 @@
       "id": 426,
       "type": "Doll",
       "reissue": false,
-      "price": 96
+      "price": 96,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11226,7 +11646,8 @@
       "id": 427,
       "type": "Doll",
       "reissue": false,
-      "price": 57
+      "price": 57,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11252,7 +11673,8 @@
       "id": 428,
       "type": "Doll",
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11278,7 +11700,8 @@
       "id": 429,
       "type": "Doll",
       "reissue": false,
-      "price": 51
+      "price": 51,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11306,7 +11729,8 @@
       "type": "Budget",
       "id": 430,
       "reissue": false,
-      "price": 81
+      "price": 81,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11339,7 +11763,8 @@
       "id": 431,
       "type": "Multipack",
       "reissue": false,
-      "price": 342
+      "price": 342,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11366,7 +11791,8 @@
       "type": "Multipack",
       "id": 432,
       "reissue": false,
-      "price": 255
+      "price": 255,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11394,7 +11820,8 @@
       "type": "Budget",
       "id": 433,
       "reissue": false,
-      "price": 97
+      "price": 97,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11416,7 +11843,8 @@
       "type": "Budget",
       "id": 434,
       "reissue": false,
-      "price": 133
+      "price": 133,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11438,7 +11866,8 @@
       "type": "Budget",
       "id": 435,
       "reissue": false,
-      "price": 62
+      "price": 62,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11460,7 +11889,8 @@
       "type": "Budget",
       "id": 436,
       "reissue": false,
-      "price": 135
+      "price": 135,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11482,7 +11912,8 @@
       "type": "Budget",
       "id": 437,
       "reissue": false,
-      "price": 101
+      "price": 101,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11503,7 +11934,8 @@
       "type": "Budget",
       "id": 438,
       "reissue": false,
-      "price": 50
+      "price": 50,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11535,7 +11967,8 @@
       "id": 439,
       "type": "Doll",
       "reissue": false,
-      "price": 144
+      "price": 144,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11569,7 +12002,8 @@
       "id": 440,
       "type": "Doll",
       "reissue": false,
-      "price": 85
+      "price": 85,
+      "rating": 4
     },
     {
       "year": "2018",
@@ -11599,7 +12033,8 @@
       "id": 441,
       "type": "Doll",
       "reissue": false,
-      "price": 92
+      "price": 92,
+      "rating": 4
     },
     {
       "year": "2020",
@@ -11643,7 +12078,8 @@
       "id": 442,
       "type": "Doll",
       "reissue": false,
-      "price": 587
+      "price": 587,
+      "rating": 4
     },
     {
       "year": "2020",
@@ -11683,7 +12119,8 @@
       "id": 643,
       "type": "Multipack",
       "reissue": false,
-      "price": 631
+      "price": 631,
+      "rating": 4
     }
   ]
 }
