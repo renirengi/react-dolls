@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setCategory, setCharacter, setExclusive, setGender, setSeries, setYear } from '../redux/slices/filterSlice';
 import Chips from '../components/Chips';
 import DollSlider from '../components/DollSlider';
+import StarRating from '../components/StarRating';
 
 
 
@@ -62,7 +63,8 @@ export default function DollPage() {
     </>  
         <p>{doll.series} <span>({doll.year})</span></p>
       </div>
-      <div className="doll-page_header_right"> I am a dolls rating</div>
+      <div className="doll-page_header_right">
+        {doll.rating && <StarRating dollRating={doll.rating}/>}</div>
     </section>
     <section className='doll-page_body'>
       <div className='doll-page_body_content'>
