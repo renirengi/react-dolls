@@ -2,20 +2,21 @@
 import React from 'react'
 import qs from 'qs'
 import {useNavigate, Link} from 'react-router-dom'
+import { GearFill } from 'react-bootstrap-icons'
 
 import { useSelector, useDispatch } from 'react-redux';
 import { selectFilter, setCategory, setFilters, setSort, setCurrentPage, setCharacter, setSeries, setYear, setGender, setExclusive } from '../redux/slices/filterSlice';
-import { selectDolls, fetchDolls} from '../redux/slices/dolls/dollsSlice';
+import { selectDolls, fetchDolls} from '../redux/slices/dolls/dollsSlice'
 import {getAvailable} from '../services/dollsService'
 import Categories from '../components/Categories'
 import Sort, {sortList} from '../components/Sort'
 import DollsBlock from '../components/DollsBlock'
 import Skeleton from '../components/DollsBlock/Skeleton'
 import Pagination from '../components/Pagination'
-import FullFilters from '../components/FullFilters';
+import FullFilters from '../components/FullFilters'
 
 
-export default function Home() {
+export default function Catalog() {
 const dispatch = useDispatch()
 const navigate = useNavigate()
 
@@ -184,14 +185,27 @@ const onChangeSelect= React.useCallback((key, value)=>{
   }, [dispatch]);
   
   const dataDolls = items.map((obj)=> 
-    <Link to={`doll/${obj.id}`} key={obj.id}><DollsBlock  {...obj}></DollsBlock></Link>)
+    <DollsBlock key={obj.id} {...obj}> </DollsBlock>)
   
   return (
     <>
       <div className="container">
           <div className="content__top">
             <Categories value= {activeCategory} onClickCategory={(category)=>onChangeCategory(category)}></Categories>
-            <div onClick={()=>setOpenFilters(!openFilters)}>Open full filters</div>
+            <div className='settings'>
+              <ul>
+                <li onClick={()=>setOpenFilters(!openFilters)}>
+                  <GearFill 
+                  size={20}
+                  className='icon'
+                   >
+                   </GearFill> 
+                    <span>
+                      Settings
+                    </span>
+                  </li>
+                </ul>
+            </div>
             <Sort value={sort} onClickSort={(obj)=>onChangeSort(obj)}></Sort>
           </div>
           {openFilters && <FullFilters onClickFilters = {(key, value)=>onChangeSelect(key, value)}

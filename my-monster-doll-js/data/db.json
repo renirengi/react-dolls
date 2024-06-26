@@ -1,4 +1,12 @@
 {
+  "users": [
+    
+    {
+      "userName": "Maurizio",
+      "password": "Maurizio2013!",
+      "id": 1
+    }
+  ],
   "dolls": [
     {
       "year": "2010",
@@ -10882,7 +10890,8 @@
     {
       "year": "2017",
       "character": [
-        "Cleo de Nile", "Ghoulia Yelps"
+        "Cleo de Nile",
+        "Ghoulia Yelps"
       ],
       "series": "Miscellaneous",
       "gender": [
@@ -10950,11 +10959,13 @@
     {
       "year": "2017",
       "character": [
-        "Clawdeen Wolf", "Clawd Wolf"
+        "Clawdeen Wolf",
+        "Clawd Wolf"
       ],
       "series": "Miscellaneous",
       "gender": [
-        "Ghoul", "Manster"
+        "Ghoul",
+        "Manster"
       ],
       "modelNumber": "DXY10",
       "galleryImagesLinks": [

@@ -14,8 +14,8 @@ export default function Header() {
   const {items, totalPrice} =useSelector(state => state.cart)
   const totalCount = items.reduce ((sum, item)=>sum+item.count, 0)
  
-  const onHome=()=>{
-    navigate('/')
+  const onCatalog=()=>{
+    navigate('/catalog')
     dispatch(resetAdditionalFilters())
   }
   return (
@@ -23,7 +23,7 @@ export default function Header() {
           <div className="header">
         <div className="container">
           
-          <div onClick={()=>onHome()} className="header__logo">
+          <div onClick={()=>onCatalog()} className="header__logo">
             <img width="70" src={logoPng} alt="Doll logo" />
             <div>
               <h1>Monster Dolls</h1>
@@ -32,9 +32,14 @@ export default function Header() {
           </div>
           
           <Search></Search>
+          <div className='header_register'>
+          {pathname !=='/register' && <Link to='/register'>
+          <button className='button button--main'>Register</button>
+          </Link>}
+          </div>
           <div className="header__cart">
           {pathname !=='/cart' && 
-            <Link to="/cart" className="button button--cart">
+            <Link to="/cart" className="button button--main">
               <span>{totalPrice}</span>
               <div className="button__delimiter"></div>
               <svg

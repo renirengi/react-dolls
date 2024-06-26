@@ -1,0 +1,33 @@
+.root {
+    //border: 2px solid teal;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    p{
+        text-align: center;
+        margin: 0.5rem 0;
+        font-weight: 800;
+        font-size: large;
+        color: #9c7c38;
+    }
+
+   :global {
+     .form-select {
+        max-width: 280px;
+        height: 35px;
+   }
+   .form-select:focus {
+        border-color: #56B1C4;
+        box-shadow: 2px 2px 2px 2px #56B1C4;
+    }
+    option:checked {
+        background-color: #56B1C4;
+    }
+    }
+    button {
+        height: 45px;
+        margin-top: 30px;
+    }
+}

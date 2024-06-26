@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+
+import {Link} from 'react-router-dom'
 import { addItem, selectCartItemById } from '../../redux/slices/cartSlice';
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -17,6 +19,7 @@ export default function DollsBlock({ id, character, year, galleryImagesLinks, se
   return (
     <div className='dolls-block-wrapper'>
       <div className="dolls-block">
+      <Link to={`/doll/${id}`}>
   <img
     className="dolls-block__image"
     src={`/img/${galleryImagesLinks[0]}`}
@@ -34,6 +37,7 @@ export default function DollsBlock({ id, character, year, galleryImagesLinks, se
       <>{exclusive && <li>{exclusive}</li>}</>
     </ul>
   </div>
+  </Link>
   <div className="dolls-block__bottom">
     <div className="dolls-block__price">{price} $</div>
     <div  onClick={onClickAdd} className="button button--outline button--add">

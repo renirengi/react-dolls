@@ -2,11 +2,12 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { getDollsById } from '../services/dollsService';
 import { useNavigate } from "react-router-dom";
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setCategory, setCharacter, setExclusive, setGender, setSeries, setYear } from '../redux/slices/filterSlice';
 import Chips from '../components/Chips';
 import DollSlider from '../components/DollSlider';
 import StarRating from '../components/StarRating';
+import { setUserRating } from '../redux/slices/userSlice';
 
 
 
@@ -15,6 +16,7 @@ export default function DollPage() {
   const dispatch = useDispatch()
   const {id} =useParams();
   const [doll, setDoll] = React.useState({});
+  const [allText, setAllText]= React.useState(false);
 
   React.useEffect(()=>{
     const loadData = async () => {
@@ -31,7 +33,7 @@ export default function DollPage() {
   }, [id]);
 
   const onChangeChips=React.useCallback((str, chips)=>{
-    navigate('/', {key:chips})
+    navigate('/catalog', {key:chips})
     if (str==='character') {
        dispatch(setCharacter(chips))
     }
@@ -51,6 +53,11 @@ export default function DollPage() {
          dispatch(setExclusive(chips))
     }
 },[dispatch, navigate])
+
+ const onChangeRating =React.useCallback((num)=>{
+  dispatch(setUserRating(num))
+ },[dispatch])
+
   if(!doll) {
     return "Loading..."
   }
@@ -64,7 +71,7 @@ export default function DollPage() {
         <p>{doll.series} <span>({doll.year})</span></p>
       </div>
       <div className="doll-page_header_right">
-        {doll.rating && <StarRating dollRating={doll.rating}/>}</div>
+        {doll.rating && <StarRating dollRating={doll.rating} onClickStar={(num)=>onChangeRating(num)}/>}</div>
     </section>
     <section className='doll-page_body'>
       <div className='doll-page_body_content'>
@@ -76,7 +83,10 @@ export default function DollPage() {
         </div>
         <div className='doll-page_body_content_text-container'>
           <p><span className="note">Item number: </span>{doll.modelNumber}</p>
-          <p>{doll.description}</p>
+          <p className={!allText ? 'truncate' : ''}>{doll.description}</p>
+          <button onClick={()=> setAllText(!allText)}>{!allText ? '...Show all text' : '...Hide this text'}</button>
+          
+          
           <Chips doll = {doll} onClickChips={(str,chips)=>onChangeChips(str,chips)}></Chips>
         </div>
         <DollSlider images={doll.galleryImagesLinks}/>

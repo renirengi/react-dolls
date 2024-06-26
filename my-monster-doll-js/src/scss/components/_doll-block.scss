@@ -2,14 +2,18 @@
 
 .dolls-block {
   width: 280px;
-  max-height: 500px;
+  max-height: 565px;
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 10px;
+  padding: 15px;
+  
+   
 
   &-wrapper {
     display:flex;
     justify-content: center;
-  }
+   
+  } 
 
   &__image {
     max-width: 210px;
@@ -19,6 +23,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 60px;
   }
 
   &__title {
@@ -26,7 +31,8 @@
     font-weight: 900;
     letter-spacing: 1%;
     margin-bottom: 20px;
-    margin: 0 6px;
+    margin: 6px;
+    color: $gold;
   }
 
   &__options {
@@ -34,8 +40,8 @@
     background-color: #f3f3f3;
     border-radius: 10px;
     flex-direction: column;
-    padding: 6px;
     height: 95px;
+    margin: 0 10px;
 
     p {
       padding: 8px;
@@ -46,25 +52,37 @@
     ul {
       display: flex;
       flex: 1;
+      justify-content: space-between;
+      padding: 0;
 
       &:first-of-type {
         margin-bottom: 6px;
       }
 
       li {
-        padding: 8px;
         flex: 2;
         font-weight: 600;
         font-size: 14px;
+        color: $teal;
       }
     }
+
+    
   }
+  &:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    transition: all 0.1s ease-in-out;
+    border-radius: 30px;
+    transform: translateY(10px);
+   }
+  
 
   &__bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
   }
 
   &__price {
@@ -72,6 +90,7 @@
     font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.015em;
+    color: black;
   }
 }
 .dolls-block-wrapper {
