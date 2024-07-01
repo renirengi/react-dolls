@@ -1,15 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-
 import './scss/app.scss'
 import Header from './components/Header'
 import Catalog from './pages/Catalog'
-import Register from './components/Register'
+import Register from './components/Register.jsx'
 import Cart from './pages/Cart'
 import NotFound from './pages/NotFound'
 import DollPage from './pages/DollPage'
 import Layout from './components/Layout'
 import RequireAuth from './components/RequireAuth.jsx'
+import Login from './components/Login.jsx'
 
 const ROLES = {
   'User': 2001,
@@ -26,7 +26,7 @@ function App() {
           <Route path="/" element={<Layout/>}>
             {/* public routes */}
             <Route path="/catalog" element={<Catalog/>}></Route>
-            <Route path="/login" element={<div>Login</div>} />
+            <Route path="/login" element={<Login/>} />
             <Route path="/register" element={<Register/>} />
             <Route path="/linkpage" element={<div>linkpage</div>} />
             <Route path="/unauthorized" element={<div>Unautorized</div>} />

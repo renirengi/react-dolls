@@ -1,4 +1,4 @@
-import React from 'react'
+
 import axios from 'axios'
 
 const url = 'http://localhost:3000/users/'
@@ -13,5 +13,9 @@ export const getAvailable = () => {
 }
 
 export const addUser= (data) => {
-    return axios.post('http://localhost:3000/users/', data)
+    return axios.post('http://localhost:3000/users/', JSON.stringify(data),
+    {
+        headers: { 'Content-Type': 'application/json' },
+        withCredentials: true
+    })
 }

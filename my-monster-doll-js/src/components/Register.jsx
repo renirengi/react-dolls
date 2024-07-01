@@ -1,15 +1,22 @@
 import React from 'react'
-import axios from 'axios'
 import { Link } from "react-router-dom"
+import Form from 'react-bootstrap/Form';
+// /////////////////////////////////////////
+import bcrypt from 'bcryptjs'
+///////////////////////////////////////////
 import { Check, X, InfoCircleFill } from 'react-bootstrap-icons';
+import { addUser } from '../services/userService';
+import { FormControl, FormGroup, FormLabel, FormText } from 'react-bootstrap';
 
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
-const REGISTER_URL = 'http://localhost:3000/users';
 
 export default function Register() {
+    const salt = bcrypt.genSaltSync(10);
+
     const userRef = React.useRef();
+    const passwordRef = React.useRef();
     const errRef = React.useRef();
     const [userName, setUserName] = React.useState('');
     const [validName, setValidName] = React.useState(false);
@@ -32,20 +39,16 @@ export default function Register() {
     
     React.useEffect(() => {
         setValidName(USER_REGEX.test(userName));
-    }, [userName])
+    }, [userName, validName])
 
     React.useEffect(() => {
         setValidPwd(PWD_REGEX.test(password));
         setValidMatch(password === matchPwd);
     }, [password, matchPwd])
 
-    React.useEffect(() => {
-        setErrMsg('');
-    }, [userName, password, matchPwd])
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // if button enabled with JS hack
         const v1 = USER_REGEX.test(userName);
         const v2 = PWD_REGEX.test(password);
         if (!v1 || !v2) {
@@ -53,27 +56,21 @@ export default function Register() {
             return;
         }
         try {
-            const response = await axios.post(REGISTER_URL,
-                JSON.stringify({ userName, password }),
-                {
-                    headers: { 'Content-Type': 'application/json' },
-                    withCredentials: true
-                }
-            );
-            // TODO: remove console.logs before deployment
-            console.log(JSON.stringify(response?.data));
+            const hashedPassword = bcrypt.hashSync(password, salt);
+
+            await addUser({userName, password:hashedPassword})
+            
             setSuccess(true);
-            //clear state and controlled inputs
             setUserName('');
             setPassword('');
             setMatchPwd('');
         } catch (err) {
             if (!err?.response) {
-                setErrMsg('No Server Response');
+               alert('No Server Response');
             } else if (err.response?.status === 409) {
-                setErrMsg('Username Taken');
+                alert('Username Taken');
             } else {
-                setErrMsg('Registration Failed')
+                alert('Registration Failed')
             }
             errRef.current.focus();
         }
@@ -81,27 +78,27 @@ export default function Register() {
 
 
   return (
-    <div>
+    <div className='register container'>
       {success ? (
                 <section>
                     <h1>Success!</h1>
                     <p>
-                        <a href="#">Sign In</a>
+                        <Link to="/">Sign In</Link>
                     </p>
                 </section>
             ) : (
                 <section>
-                    <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
-                    <h1>Register</h1>
-                    <form onSubmit={handleSubmit}>
-                        <label htmlFor="username">
+                    {/* <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p> */}
+                    <h1 className='register_title'>Register</h1>
+                    
+                    <Form onSubmit={handleSubmit}>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>
                             Username:
-                           { validName && <Check className={validName ? "valid" : "hide"} />}
-                            {validName || !userName && <X/>}
-                        </label>
-                        <input
+                            {(!validName || !userName) ?  <X color="red" size={25}/> : <Check color="#9c7c38" size={25}/>}
+                        </Form.Label>
+                        <Form.Control
                             type="text"
-                            id="username"
                             ref={userRef}
                             autoComplete="off"
                             onChange={(e) => setUserName(e.target.value)}
@@ -112,22 +109,20 @@ export default function Register() {
                             onFocus={() => setUserFocus(true)}
                             onBlur={() => setUserFocus(false)}
                         />
-                        <p id="uidnote" className={userFocus && userName && !validName ? "instructions" : "offscreen"}>
-                            <InfoCircleFill />
-                            4 to 24 characters.<br />
-                            Must begin with a letter.<br />
-                            Letters, numbers, underscores, hyphens allowed.
-                        </p>
-
-
-                        <label htmlFor="password">
+                        <FormText id="uidnote" className={userFocus && userName && !validName ? "instructions" : "offscreen"}>
+                            <InfoCircleFill color="#9c7c38" size={25}/> 
+                            4 to 24 characters. Must begin with a letter. Letters, numbers, underscores, hyphens allowed.
+                        </FormText>
+                        </Form.Group>
+                        
+                        <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <FormLabel>
                             Password:
-                            <Check className={validPwd ? "valid" : "hide"} />
-                            <X className={validPwd || !password? "hide" : "invalid"} />
-                        </label>
-                        <input
+                            {!validPwd || !password ? <X color="red" size={25}/> : <Check color="#9c7c38" size={25}/> }
+                        </FormLabel>
+                        <Form.Control
                             type="password"
-                            id="password"
+                            ref={passwordRef}
                             onChange={(e) => setPassword(e.target.value)}
                             value={password}
                             required
@@ -136,22 +131,20 @@ export default function Register() {
                             onFocus={() => setPwdFocus(true)}
                             onBlur={() => setPwdFocus(false)}
                         />
-                        <p id="pwdnote" className={pwdFocus && !validPwd ? "instructions" : "offscreen"}>
-                            <InfoCircleFill/>
-                            8 to 24 characters.<br />
-                            Must include uppercase and lowercase letters, a number and a special character.<br />
+                        <FormText id="pwdnote" className={pwdFocus && !validPwd ? "instructions" : "offscreen"}>
+                            <InfoCircleFill color="#9c7c38" size={25}/>
+                            8 to 24 characters. Must include uppercase and lowercase letters, a number and a special character.
                             Allowed special characters: <span aria-label="exclamation mark">!</span> <span aria-label="at symbol">@</span> <span aria-label="hashtag">#</span> <span aria-label="dollar sign">$</span> <span aria-label="percent">%</span>
-                        </p>
+                        </FormText>
+                        </Form.Group>
 
-
-                        <label htmlFor="confirm_pwd">
+                        <FormGroup className="mb-3" controlId="formBasicConfirmPassword">
+                        <FormLabel>
                             Confirm Password:
-                            <Check className={validMatch && matchPwd ? "valid" : "hide"} />
-                            <X className={validMatch || !matchPwd ? "hide" : "invalid"} />
-                        </label>
-                        <input
+                            {(!validMatch || !matchPwd) ? <X color="red" size={25}/> :<Check color="#9c7c38" size={25}/>}
+                        </FormLabel>
+                        <FormControl
                             type="password"
-                            id="confirm_pwd"
                             onChange={(e) => setMatchPwd(e.target.value)}
                             value={matchPwd}
                             required
@@ -160,13 +153,14 @@ export default function Register() {
                             onFocus={() => setMatchFocus(true)}
                             onBlur={() => setMatchFocus(false)}
                         />
-                        <p id="confirmnote" className={matchFocus && !validMatch ? "instructions" : "offscreen"}>
-                            <InfoCircleFill/>
+                        <FormText id="confirmnote" className={matchFocus && !validMatch ? "instructions" : "offscreen"}>
+                            <InfoCircleFill color="#9c7c38" size={25}/>
                             Must match the first password input field.
-                        </p>
+                        </FormText>
+                        </FormGroup>
 
-                        <button disabled={!validName || !validPwd || !validMatch ? true : false}>Sign Up</button>
-                    </form>
+                        <button className='button'  disabled={!validName || !validPwd || ! validMatch}>Sign Up</button>
+                    </Form>
                     <p>
                         Already registered?<br />
                         <span className="line">

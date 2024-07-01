@@ -1,0 +1,15 @@
+.register {
+    &_title {
+        text-align: center;
+        color: $gold;
+    }
+
+        
+
+
+&:global{ 
+           .label.form-label{
+            color: red;
+           }
+    }
+}

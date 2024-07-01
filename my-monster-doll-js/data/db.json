@@ -1,10 +1,14 @@
 {
   "users": [
-    
     {
       "userName": "Maurizio",
       "password": "Maurizio2013!",
       "id": 1
+    },
+    {
+      "userName": "Tomie",
+      "password": "$2a$10$nnXQa42CmoqAnxhrk0KjKeryIFJnrNrj3G5M7ndgGrDXd2myg1n1.",
+      "id": 2
     }
   ],
   "dolls": [
